@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./assets/hero-banner.jpg" alt="Hüseyin Ateş - Principal AI Systems Architect & Cybernetics Lab" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.6);" />
+  <img src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/main/assets/hero-banner.jpg" alt="Hüseyin Ateş - Principal AI Systems Architect & Cybernetics Lab" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.6);" />
 
   <br><br>
 
@@ -87,7 +87,7 @@ Bu profil, bünyesindeki 16 araştırma deposu ve tüm teorik/uygulamalı sistem
 ## 🧬 UÇTAN UCA BÜTÜNLEŞİK SİSTEM MİMARİSİ
 
 <div align="center">
-  <img src="./assets/system-architecture.jpg" alt="Autonomous Self-Healing & Causal Architecture Dataflow" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin: 16px 0;" />
+  <img src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/main/assets/system-architecture.jpg" alt="Autonomous Self-Healing & Causal Architecture Dataflow" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin: 16px 0;" />
   <p><sub style="color: #8b949e;"><b>Şekil 1:</b> Çok-Dilli Monorepo Ingestion, Nedensel Graf Dağıtımı, SBFL Hata Lokalizasyonu, Docker Tecrit Potası ve Zeller ddmin Yama İndirgeme Veri Akış Topolojisi.</sub></p>
 </div>
 
