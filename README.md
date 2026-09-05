@@ -149,19 +149,37 @@ Bu profil, bünyesindeki 16 araştırma deposu ve tüm teorik/uygulamalı sistem
 
 ## 📐 MATEMATİKSEL VE TEORİK FORMÜLASYON
 
-Sistemlerin otonom karar mekanizmaları ampirik sezgilere değil, aşağıdaki kapalı form matematiksel temellere dayanır:
+Sistemlerin otonom karar mekanizmaları ampirik sezgilere değil, aşağıdaki kapalı form matematiksel ifadelere dayanır:
 
-<div align="center">
+### 1. Ochiai Spektrum Tabanlı Hata Lokalizasyonu (SBFL)
+> Başarısız test infaz sıklığı ile normalize edilmiş şüphe indeksi çıkarımı:
+```math
+S_{\text{Ochiai}}(s) = \frac{e_f(s)}{\sqrt{\text{failed}_{\text{total}} \cdot \left(e_f(s) + e_p(s)\right)}}
+```
 
-| Disiplin & Denklem | Matematiksel Formülasyon | Teorik Fonksiyonu |
-|---|---|---|
-| **Ochiai SBFL Hata Şüphesi** | $$S_{\text{Ochiai}}(s) = \frac{e_f(s)}{\sqrt{\text{total\_failed} \cdot \left(e_f(s) + e_p(s)\right)}}$$ | Başarısız test infaz sıklığı ile normalize edilmiş şüphe indeksi çıkarımı. |
-| **Nedensel Difüzyon ve $w^p$** | $$w_i = \mathbb{I}_{(\text{susp}_i > 0)} \cdot (5 \cdot \text{susp}_i + w^p_i) + \mathbb{I}_{(\text{susp}_i = 0)} \cdot (\epsilon \cdot w^p_i)$$ | Dinamik çalışma zamanı arıza sinyali ile statik import erişiminin ($w^p$) füzyonu. |
-| **Shannon Entropi $K_{\text{auto}}$** | $$H(p) = -\sum_{i=1}^M p_i \ln p_i \implies K_{\text{auto}} = \max\left(1, \lceil \exp(H(p)) \rceil\right)$$ | $K=1$ açlık tavanını kıran ve dinamik kaldıraç kümesi kardinalitesini belirleyen kestirim. |
-| **Koza Parsimony Baskısı** | $$\mathcal{F}_{\text{penalized}}(T) = \mathcal{F}_{\text{raw}}(T) - \lambda_{\text{depth}} \cdot \text{Depth}(T) - \lambda_{\text{nodes}} \cdot |\text{Nodes}(T)|$$ | Genetik programlama ağaçlarında kod şişkinliğini (bloat) engelleyen çok-amaçlı optimizasyon. |
-| **Zeller 1-Minimalite ($ddmin$)** | $$c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\checkmark} \quad \wedge \quad \forall c'' \subset c', \ \text{Oracle}(c'') \neq \boldsymbol{\checkmark}$$ | Sentetik yamaların test takımına aşırı öğrenmesini (overfitting) engelleyen 1-satırlık minimal diff. |
+### 2. Nedensel Difüzyon ve $w^p$ Keskinleştirme
+> Dinamik çalışma zamanı arıza sinyali ile statik import erişiminin ($w^p$) füzyonu:
+```math
+w_i = \begin{cases} 5 \cdot S_{\text{Ochiai}}(i) + w^p_i, & \text{eğer } S_{\text{Ochiai}}(i) > 0 \\ \epsilon \cdot w^p_i, & \text{eğer } S_{\text{Ochiai}}(i) = 0 \quad (\epsilon = 0.05) \end{cases}
+```
 
-</div>
+### 3. Shannon Entropisi ile Dinamik Kaldıraç Kümesi Kestirimi ($K_{\text{auto}}$)
+> $K=1$ açlık tavanını kıran ve dinamik kaldıraç kümesi kardinalitesini belirleyen kestirim:
+```math
+H(p) = -\sum_{i=1}^M p_i \ln p_i \implies K_{\text{auto}} = \max\left(1, \lceil \exp(H(p)) \rceil\right)
+```
+
+### 4. Koza Çok-Amaçlı Parsimony Baskı Fonksiyonu
+> Genetik programlama ağaçlarında kod şişkinliğini (bloat) engelleyen çok-amaçlı optimizasyon:
+```math
+\mathcal{F}_{\text{penalized}}(T) = \mathcal{F}_{\text{raw}}(T) - \lambda_{\text{depth}} \cdot \text{Depth}(T) - \lambda_{\text{nodes}} \cdot |\text{Nodes}(T)|
+```
+
+### 5. Zeller 1-Minimal Delta Debugging Koşulu ($ddmin$)
+> Sentetik yamaların test takımına aşırı öğrenmesini (overfitting) engelleyen 1-satırlık minimal diff:
+```math
+c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\checkmark} \quad \wedge \quad \forall c'' \subset c', \ \text{Oracle}(c'') \neq \boldsymbol{\checkmark}
+```
 
 ---
 
