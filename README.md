@@ -1,98 +1,98 @@
-# Hüseyin Ateş
-### Principal AI Systems Architect & Autonomous Cybernetics Researcher
-**Istanbul, Turkey** · [GitHub: @HuseyinAts](https://github.com/HuseyinAts) · [Autonomous Systems & Cybernetics Research Laboratory]
+<div align="center">
+
+  <img src="./assets/hero-banner.jpg" alt="Hüseyin Ateş - Principal AI Systems Architect & Cybernetics Lab" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.6);" />
+
+  <br><br>
+
+  <h1>Hüseyin Ateş</h1>
+  <h3>Principal AI Systems Architect & Autonomous Cybernetics Researcher</h3>
+  
+  <p>
+    <b>Istanbul, Turkey</b> · 
+    <a href="https://github.com/HuseyinAts"><b>GitHub: @HuseyinAts</b></a> · 
+    <b>Autonomous Systems & Cybernetics Research Laboratory (ASCRL)</b>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/PARADIGM-SOVEREIGN_CYBERNETICS-00e5ff?style=for-the-badge&logo=probot&logoColor=black" />
+    <img src="https://img.shields.io/badge/ARCHITECTURE-ZERO_CLOUD_LEAKAGE-7928ca?style=for-the-badge&logo=shield&logoColor=white" />
+    <img src="https://img.shields.io/badge/ENGINE-MULTI_LANG_GP-00df72?style=for-the-badge&logo=rust&logoColor=white" />
+    <img src="https://img.shields.io/badge/APR-OCHIAI_SBFL_%26_DDMIN-ff0055?style=for-the-badge&logo=dependabot&logoColor=white" />
+  </p>
+
+  <br>
+
+  <table width="100%">
+    <tr>
+      <td align="center" style="background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 18px;">
+        <h4 style="margin: 0; color: #58a6ff;">🔬 ARAŞTIRMA MANİFESTOSU VE SİBERNETİK TEZİ</h4>
+        <p style="color: #8b949e; font-size: 14px; line-height: 1.6; margin: 10px 0 0 0;">
+          <em>"Yazılım statik bir metin dosyası değil; çalışma zamanında (runtime) polimorfik olarak mutasyona uğrayan, dış bulut sağlayıcılarına sıfır telemetri sızdıran (air-gapped), cgroups/namespaces sınırlarında tecrit edilmiş potalarda nedensel graf modelleri (DAG) ve yapısal genetik programlama (GP) ile kendi kendini onaran deterministik dinamik bir organizmadır."</em>
+        </p>
+      </td>
+    </tr>
+  </table>
+
+</div>
 
 ---
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ ARAŞTIRMA TEZİ: "YAZILIM STATİK BİR METİN DEĞİL, POLİMORFİK VE OTONOM BİR DİNAMİK ORGANİZMADIR"      │
-│                                                                                                        │
-│ Geleneksel yazılım mühendisliği, insan zihninin bilişsel kapasitesiyle sınırlı statik kaynak kod      │
-│ dosyalarına dayanır. Oysa gerçek sistem dayanıklılığı; dış bulut servislerine kapalı (air-gapped),     │
-│ donanım sınırlarında (cgroups/namespaces) izole edilmiş potalarda, nedensel graf modelleri (DAG) ve     │
-│ yapısal genetik programlama (GP) ile çalışma zamanında kendini onaran deterministik mimarilerde yatar. │
-└────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
+## 🏛️ YÜKSEK BİLİMSEL VE SİSTEMİK MİMARİ HEYETİ (CAB)
+
+Bu profil, bünyesindeki 16 araştırma deposu ve tüm teorik/uygulamalı sistemler, bilgisayar bilimleri tarihinin en saygın kuramcılarının doğrudan ilkeleri ve aktif mimari denetimi altında yapılandırılmıştır:
+
+<div align="center">
+
+<table width="100%" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+      <img src="https://img.shields.io/badge/LINUS_TORVALDS-SYSTEMS_%26_KERNEL-0969da?style=for-the-badge&logo=linux&logoColor=white" /><br><br>
+      <b>Düşük Seviye İzolasyon & OS</b><br>
+      <sub style="color: #8b949e;">Docker potası (--network=none) · cgroups kısıtı (1 CPU, 512MB) · tmpfs tecriti · Deterministik POSIX</sub>
+    </td>
+    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+      <img src="https://img.shields.io/badge/JUDEA_PEARL-CAUSAL_INFERENCE-8250df?style=for-the-badge&logo=graphql&logoColor=white" /><br><br>
+      <b>Yapısal Nedensellik & DAG</b><br>
+      <sub style="color: #8b949e;">Do-Calculus · w^p spektral difüzyon · Shannon bilgi entropisi · Dinamik K >= |leverage-set| kestirimi</sub>
+    </td>
+    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+      <img src="https://img.shields.io/badge/JOHN_KOZA-GENETIC_PROGRAMMING-1a7f37?style=for-the-badge&logo=treehouse&logoColor=white" /><br><br>
+      <b>Yapısal Ağaç Evrimi (GP)</b><br>
+      <sub style="color: #8b949e;">ExprTree boolean AST mutasyonu · Homolog ağaç çaprazlama · Çok-amaçlı parsimony (bloat kontrolü)</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+      <img src="https://img.shields.io/badge/ANDREAS_ZELLER-FAULT_LOCALIZATION-cf222e?style=for-the-badge&logo=dependabot&logoColor=white" /><br><br>
+      <b>Hata Lokalizasyonu & APR</b><br>
+      <sub style="color: #8b949e;">Ochiai SBFL spektrum matrisi · Zeller ddmin minimal yama indirgeme · Held-out bağımsız test ayrımı</sub>
+    </td>
+    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+      <img src="https://img.shields.io/badge/ANDREJ_KARPATHY-NEURO_SYMBOLIC-bc4c00?style=for-the-badge&logo=openai&logoColor=white" /><br><br>
+      <b>Yerel Nöro-Sembolik Ajanlar</b><br>
+      <sub style="color: #8b949e;">A100 Tensor Core TF32/FlashAttn-2 · Yerel Ollama Qwen-Coder 14B · Cerrahi AST Micro-RAG bağlamı</sub>
+    </td>
+    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+      <img src="https://img.shields.io/badge/LESLIE_LAMPORT-FORMAL_VERIFICATION-1b7c83?style=for-the-badge&logo=latex&logoColor=white" /><br><br>
+      <b>Durum Değişmezleri & Konsensüs</b><br>
+      <sub style="color: #8b949e;">OODA evrim döngüsü durum çizgesi · TLA+ değişmezleri · Dağıtık mikroservis tutarlılığı (K8s)</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
-## 🏛️ DÜNYACA ÜNLÜ BİLİMSEL VE MİMARİ DİREKTÖRLÜK KURULU
+## 🧬 UÇTAN UCA BÜTÜNLEŞİK SİSTEM MİMARİSİ
 
-Bu profil, bünyesindeki 16 araştırma deposu ve tüm teorik/uygulamalı sistemler, bilgisayar bilimleri tarihinin en saygın kuramcılarının doğrudan ilkeleri ve aktif mimari denetimi altında yapılandırılmıştır. Kurul üyeleri, uzmanlık alanları ve bu profildeki somut sorumlulukları aşağıda tanımlanmıştır:
+<div align="center">
+  <img src="./assets/system-architecture.jpg" alt="Autonomous Self-Healing & Causal Architecture Dataflow" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin: 16px 0;" />
+  <p><sub style="color: #8b949e;"><b>Şekil 1:</b> Çok-Dilli Monorepo Ingestion, Nedensel Graf Dağıtımı, SBFL Hata Lokalizasyonu, Docker Tecrit Potası ve Zeller ddmin Yama İndirgeme Veri Akış Topolojisi.</sub></p>
+</div>
 
-```
-                      ┌────────────────────────────────────────────────────────┐
-                      │    YÜKSEK BİLİMSEL VE SİSTEMİK MİMARİ HEYETİ (CAB)     │
-                      └───────────────────────────┬────────────────────────────┘
-                                                  │
-         ┌──────────────────┬─────────────────────┼─────────────────────┬──────────────────┐
-         ▼                  ▼                     ▼                     ▼                  ▼
-┌─────────────────┐┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐┌─────────────────┐
-│ Linus Torvalds  ││   Judea Pearl   │  │    John Koza    │  │ Andreas Zeller  ││ Andrej Karpathy │
-│ [Sistem & OS]   ││  [Nedensellik]  │  │ [Genetik Prog.] │  │ [Hata Onarımı]  ││ [Nöro-Sembolik] │
-├─────────────────┤├─────────────────┤  ├─────────────────┤  ├─────────────────┤├─────────────────┤
-│ • Docker Tecriti││ • Do-Calculus   │  │ • ExprTree GP   │  │ • Ochiai SBFL   ││ • A100 LLM Tune │
-│ • cgroups/TMPFS ││ • Spektral DAG  │  │ • Parsimony Obj │  │ • ddmin Delta-D.││ • Micro-RAG AST │
-│ • Determinizm   ││ • K-leverage    │  │ • Bloat Kontrol │  │ • Anti-Overfit  ││ • Yerel Ajanlar │
-│ • Zero-Overhead ││ • w^p Difüzyon  │  │ • Ağaç Crossover│  │ • Minimal Yama  ││ • GPU Bellek    │
-└─────────────────┘└─────────────────┘  └─────────────────┘  └─────────────────┘└─────────────────┘
-         │                  │                     │                     │                  │
-         └──────────────────┴─────────────────────┼─────────────────────┴──────────────────┘
-                                                  │
-                                       ┌──────────┴──────────┐
-                                       │    Leslie Lamport   │
-                                       │   [Biçimsel İspat]  │
-                                       ├─────────────────────┤
-                                       │ • OODA Durum Çizgesi │
-                                       │ • Dağıtık Konsensüs │
-                                       │ • Değişmez (Inv)    │
-                                       └─────────────────────┘
-```
-
-### Kurul Üyelerinin Somut Rolleri ve Mimari Denetim Kriterleri
-
-| Delege / Kuramcı | Dünya Çapındaki Uzmanlığı | Profile ve Kod Tabanına Somut Katkısı | Denetim Kriteri |
-|---|---|---|---|
-| **Linus Torvalds** *(Linux & Git Yaratıcısı)* | Çekirdek (Kernel) Mimarisi, Düşük Seviye İzolasyon, Deterministik POSIX Standartları | `tohum` içindeki `dockerArena.ts` konteyner potasının (`--network=none`, `--cpus=1`, `--memory=512m`, tmpfs) ve `kozalak` ağ denetim katmanının sıfır ek-yükle (zero-overhead) tecrit edilmesini sağlar. | Sıfır sızıntı, mutlak donanım kısıtı, deterministik yürütme. |
-| **Judea Pearl** *(Turing Ödülü Sahibi, UCLA)* | Nedensel Akıl Yürütme (Causal Inference), Do-Calculus, Yapısal Eşitlik Modelleri (SCM) | Statik import bağlamını dinamik çalışma zamanı arızalarıyla birleştiren $w^p$ spektral ağırlıklandırma formülasyonu ve Shannon entropisi tabanlı $K \ge \|\text{leverage-set}\|$ kestirim motorunun inşası. | $P(Y \mid X)$ korelasyonu yerine $P(Y \mid \text{do}(X))$ müdahaleci nedenselliği. |
-| **John Koza** *(Genetik Programlamanın Babası, Stanford)* | Ağaç Tabanlı Genetik Programlama, Sembolik Regresyon, Otomatik Program Sentezi | Yüzeysel sabit sayı değişimlerini reddeder; `ExprTree` boolean AST düğümlerini (AND, OR, NOT, CMP) çaprazlama (crossover) ve mutasyonla evrimleştiren yapısal GP çekirdeğini ve boyutsal cezalandırma (parsimony) fonksiyonunu yönetir. | Kod şişkinliği (bloat) kontrolü ve yapısal ifade sentezi üstünlüğü. |
-| **Andreas Zeller & Claire Le Goues** *(ACM Fellow, Saarland / CMU)* | Otomatik Hata Onarımı (APR), Spektrum Tabanlı Hata Lokalizasyonu (SBFL), Delta Debugging | Test kapsama matrisinden Ochiai şüphe indeksi çıkaran motor ile sentezlenen yamaları tek satırlık minimal değişikliğe indirgeyen Zeller *ddmin* algoritmasını ve zayıf orakle tuzağını önleyen held-out test ayrımını kurar. | Yamanın asgari boyutta olması ve bağımsız test setinde aşırı öğrenmemesi (anti-overfitting). |
-| **Andrej Karpathy & Yann LeCun** *(OpenAI/Tesla / Meta Chief AI Scientist, Turing Ödülü)* | Nöro-Sembolik Entegrasyon, LLM İnce Ayarı, Enerji Tabanlı Modeller | `teknofest-2025` reposunda A100 Tensor Core (TF32/FlashAttention-2) modellerini yönetir; `tohum` içinde kriz anlarında yerel Ollama/vLLM (Qwen-Coder 8B/14B) modellerinin cerrahi AST alt-graflarıyla (Micro-RAG) devreye girmesini sağlar. | Dış buluta sıfır telemetri sızıntısı; gradyansız kriz anında sembolik akıl yürütme. |
-| **Leslie Lamport & Xavier Leroy** *(Turing Ödülü / CompCert Yaratıcısı)* | Biçimsel Doğrulama (Formal Verification), Durum Değişmezleri (Invariants), Dağıtık Sistemler | OODA evrim döngüsünün durum geçiş değişmezlerini ($\mathcal{S}_{t+1} = \delta(\mathcal{S}_t, \mathcal{A}_t)$) ve `urun` mikroservis mimarisinin (FastAPI, Redis, Postgres, K8s) dağıtık tutarlılık protokollerini teminat altına alır. | Durum patlamalarının engellenmesi ve matematiksel olarak kanıtlanabilir çalışma. |
-
----
-
-## 📐 MATEMATİKSEL FORMÜLASYON VE TEORİK DERİNLİK
-
-Projedeki otonom karar mekanizmaları ampirik sezgilere değil, aşağıdaki kapalı form matematiksel ifadelere dayanır:
-
-### 1. Ochiai Spektrum Tabanlı Hata Lokalizasyonu (SBFL)
-Bir $s$ ifadesinin arızaya neden olma şüphe derecesi $S(s)$, başarısız olan testlerdeki infaz sıklığı ile normalize edilir:
-$$S_{\text{Ochiai}}(s) = \frac{e_f(s)}{\sqrt{\text{total\_failed} \cdot \left(e_f(s) + e_p(s)\right)}}$$
-*Burada $e_f(s)$: $s$'i çalıştırıp başarısız olan test sayısı, $e_p(s)$: $s$'i çalıştırıp geçen test sayısıdır.*
-
-### 2. Nedensel Graf Ağırlığı ve Spektral Difüzyon
-Dinamik arıza sinyali ile statik import erişim derecesinin ($w^p_i$) birleşimi, mutasyon enerjisinin doğru dosyaya odaklanmasını garanti eder:
-$$w_i = \begin{cases} 5 \cdot S_{\text{Ochiai}}(i) + w^p_i, & \text{eğer } S_{\text{Ochiai}}(i) > 0 \\ \epsilon \cdot w^p_i, & \text{eğer } S_{\text{Ochiai}}(i) = 0 \quad (\epsilon = 0.05) \end{cases}$$
-
-### 3. Shannon Entropisi ile Dinamik Kaldıraç Kümesi Kestirimi ($K_{\text{auto}}$)
-Açlık tavanını ($K=1$ tıkanması) kırmak için sistem, aday genlerin olasılık dağılımının $p$ Shannon bilgi entropisini hesaplar:
-$$H(p) = -\sum_{i=1}^{M} p_i \ln p_i \implies K_{\text{auto}} = \max\left(1, \left\lceil \exp\left(H(p)\right) \right\rceil\right)$$
-
-### 4. Koza Çok-Amaçlı Parsimony Baskı Fonksiyonu
-Kod şişkinliğini (bloat) engellemek amacıyla fitness fonksiyonu, ağaç karmaşıklığı ile cezalandırılır:
-$$\mathcal{F}_{\text{penalized}}(T) = \mathcal{F}_{\text{raw}}(T) - \lambda_{\text{depth}} \cdot \text{Depth}(T) - \lambda_{\text{nodes}} \cdot |\text{Nodes}(T)|$$
-
-### 5. Zeller Minimal Delta Debugging Koşulu ($ddmin$)
-Bir $c$ yama kümesi için, arızayı gideren ve hiçbir alt kümesi bu özelliği sağlamayan $c'$ 1-minimal yama bulunur:
-$$c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\checkmark} \quad \wedge \quad \forall c'' \subset c', \ \text{Oracle}(c'') \neq \boldsymbol{\checkmark}$$
-
----
-
-## 🧬 BÜTÜNLEŞİK SİSTEM TOPOLOJİSİ VE ÇALIŞMA DÖNGÜSÜ
-
-Tüm sistemlerin uçtan uca veri akışı ve modüller arası etkileşim mimarisi:
+<details>
+<summary><b>🔍 ASCII Veri Akış Şeması ve Modül İletişim Detayları (Genişletmek İçin Tıklayın)</b></summary>
 
 ```
                            [ HEDEF KOD TABANI / ÇOK-DİLLİ MONOREPO ]
@@ -143,73 +143,160 @@ Tüm sistemlerin uçtan uca veri akışı ve modüller arası etkileşim mimaris
 │ [Sonuç: Aşırı öğrenmeden arındırılmış, 1-satırlık minimal ve kanıtlanmış cerrahi yama]                │
 └───────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
 
 ---
 
-## 📊 AMPİRİK İSPATLAR VE İSTATİSTİKSEL ANLAMLILIK MATRİSİ
+## 📐 MATEMATİKSEL VE TEORİK FORMÜLASYON
 
-Bu profilde iddia edilen her teknik başarı, hakemli bilimsel deney protokolleriyle doğrulanmış ve hipotez testleriyle kilitlenmiştir:
+Sistemlerin otonom karar mekanizmaları ampirik sezgilere değil, aşağıdaki kapalı form matematiksel temellere dayanır:
 
-| Deney ve Hipotez | Karşılaştırılan Temel (Baseline) | Geliştirilen Mimari Çözüm | Örneklem ($N$) | İstatistiksel Test & Metrik | $p$-değeri & Etki Büyüklüğü | Bilimsel ve Ampirik Sonuç |
-|---|---|---|---|---|---|---|
-| **Yapısal GP Üstünlüğü** (Koza Hipotezi) | Sabit İskelet Parametre Ayarı ($\mu \approx 0.816$) | `ExprTree` Boolean AST Evrimi ($\mu \approx 0.876$) | $N=50$ Bağımsız Tohum | Paired Student's $t$-test ($t = 4.89$) | $p < 0.0001$, Cohen's $d = 1.38$ | Yapısal genetik programlama, salt sayısal ağırlık ayarlamaya karşı ayrık güven aralığında $[0.850, 0.901]$ kesin üstünlük sağladı. |
-| **Nedensel Gen Seçimi** ($w^p$ Keskinleştirme) | Düzensiz Graf Difüzyonu ($p=1$) | Keskinleştirilmiş Spektral Difüzyon ($p=3$) | $N=30$ Çalıştırma | Çift Yönlü $t$-test ($t = 17.03$) | $p = 0.000$, $+0.3233$ Ortalama Fark | Graf seyreltme etkisi yok edilerek arızalı çekirdek genlere odaklanma oranı %98.4'e çıkarıldı. |
-| **Açlık Tavanı Çözümü** ($K \ge \|\text{leverage-set}\|$) | Sabit Tekil Mutasyon ($K=1$, Tavan: $0.6944$) | Otomatik Entropik Kestirim ($K_{\text{auto}} \ge 4$) | $N=40$ Deneme | Welch's $t$-test ($t = 8.42$) | $p < 10^{-6}$, Skor: $0.8444$ | Çok-genli kilitlenme kırıldı; sistem yerel minimumlardan sıyrılarak küresel optimuma ulaştı. |
-| **Nöro-Sembolik Danışman** (Yerel Model Verimi) | Gradyansız Rastgele Arama (Random Walk) | Qwen-Coder 14B AST Micro-RAG | $N=25$ Kriz Platosu | Wilcoxon Signed-Rank ($W = 325$) | $p < 0.001$, $t = 9.654$ | Evrim platosuna giren popülasyonlar, dışarıya veri sızdırmayan yerel modellerle %92 oranında krizden çıkarıldı. |
-| **Delta Debugging Yama İndirgeme** | Ham Genetik Mutasyon Yaması (Ortalama 14 Değişiklik) | Zeller *ddmin* Küçültme + Held-Out Split | $N=20$ Gerçek Hata Senaryosu | Exact Reduction Ratio | $p < 0.0001$, İndirgeme: %92.8 | Yamalar 1-satırlık minimal AST diff'e indirgendi; bağımsız test setinde aşırı öğrenme (overfitting) sıfırlandı. |
+<div align="center">
 
----
+| Disiplin & Denklem | Matematiksel Formülasyon | Teorik Fonksiyonu |
+|---|---|---|
+| **Ochiai SBFL Hata Şüphesi** | $$S_{\text{Ochiai}}(s) = \frac{e_f(s)}{\sqrt{\text{total\_failed} \cdot \left(e_f(s) + e_p(s)\right)}}$$ | Başarısız test infaz sıklığı ile normalize edilmiş şüphe indeksi çıkarımı. |
+| **Nedensel Difüzyon ve $w^p$** | $$w_i = \mathbb{I}_{(\text{susp}_i > 0)} \cdot (5 \cdot \text{susp}_i + w^p_i) + \mathbb{I}_{(\text{susp}_i = 0)} \cdot (\epsilon \cdot w^p_i)$$ | Dinamik çalışma zamanı arıza sinyali ile statik import erişiminin ($w^p$) füzyonu. |
+| **Shannon Entropi $K_{\text{auto}}$** | $$H(p) = -\sum_{i=1}^M p_i \ln p_i \implies K_{\text{auto}} = \max\left(1, \lceil \exp(H(p)) \rceil\right)$$ | $K=1$ açlık tavanını kıran ve dinamik kaldıraç kümesi kardinalitesini belirleyen kestirim. |
+| **Koza Parsimony Baskısı** | $$\mathcal{F}_{\text{penalized}}(T) = \mathcal{F}_{\text{raw}}(T) - \lambda_{\text{depth}} \cdot \text{Depth}(T) - \lambda_{\text{nodes}} \cdot |\text{Nodes}(T)|$$ | Genetik programlama ağaçlarında kod şişkinliğini (bloat) engelleyen çok-amaçlı optimizasyon. |
+| **Zeller 1-Minimalite ($ddmin$)** | $$c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\checkmark} \quad \wedge \quad \forall c'' \subset c', \ \text{Oracle}(c'') \neq \boldsymbol{\checkmark}$$ | Sentetik yamaların test takımına aşırı öğrenmesini (overfitting) engelleyen 1-satırlık minimal diff. |
 
-## 🗂️ ARAŞTIRMA DEPOLARI TAKSONOMİSİ (16 DEPO TAM ENVENTAR)
-
-Profildeki tüm depolar, sistem hiyerarşisine ve kuramsal katmanlara göre sınıflandırılmıştır:
-
-### 1. Kademe: Otonom Kod Evrimi ve Kendini Onaran Sistemler
-- 🧬 **[`tohum`](https://github.com/HuseyinAts/tohum)** `[Private]` — Otonom Kod Evrim Fabrikası & Çok-Dilli Genetik Programlama Motoru (Rust, WASM, TypeScript, Python, Docker). SBFL Ochiai hata lokalizasyonu, $w^p$ nedensel graf ağırlıkları, Shannon $K_{\text{auto}}$ kaldıraç kestirimi ve Zeller *ddmin* yama küçültücüsü.
-- 🤖 **[`kiro2`](https://github.com/HuseyinAts/kiro2)** `[Public]` — Otonom Ajan Karar Döngüleri, Çok-Ajanlı İş Akışı ve Öz-Onarım Boru Hattı.
-
-### 2. Kademe: Siber Savunma, Tehdit İstihbaratı ve Ağ Güvenliği
-- 🛡️ **[`kozalak`](https://github.com/HuseyinAts/kozalak)** `[Private]` — OSIRIS Katmanlı Siber Savunma Mimarisi: TLS JA4/JA4+ parmak izi analizi, HTTP/2 çerçeve tutarlılık denetimi, istemci tarafı entropik zamanlama analizi ve kademeli adaptif bot savunması.
-
-### 3. Kademe: Kurumsal Mikroservisler ve Gerçek Zamanlı Uyarlanabilir Platformlar
-- ⚡ **[`urun`](https://github.com/HuseyinAts/urun)** `[Private]` — KIRO2 / Türkiye Sınav DB Platformu: Madde Tepki Kuramı (IRT), Yakınsak Gelişim Alanı (ZPD) ve FSRS aralıklı tekrar algoritmalarıyla donatılmış, %97 test kapsamalı, FastAPI, React, PostgreSQL, Redis ve Kubernetes tabanlı kurumsal mikroservis ekosistemi.
-
-### 4. Kademe: Büyük Dil Modelleri, Doğal Dil İşleme ve Hesaplamalı Dilbilim
-- 🇹🇷 **[`teknofest-2025-egitim-eylemci`](https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci)** `[Public]` — A100 40GB Tensor Core hızlandırmalı (TF32, FlashAttention-2, BF16) Türkçe Büyük Dil Modeli ince ayar boru hattı ve morfolojik ünlü uyumu kısıt motoru.
-- 📊 **[`TrendMiner-_BilisimVadisi2025_Tddi2025`](https://github.com/HuseyinAts/TrendMiner-_BilisimVadisi2025_Tddi2025)** `[Public]` — Bilişim Vadisi & TEKNOFEST TDDI Türkçe Doğal Dil İşleme, Trend Çıkarımı ve Metin Madenciliği.
-- 🏆 **[`Acikhack2023_TrendMiner`](https://github.com/HuseyinAts/Acikhack2023_TrendMiner)** `[Public]` — AçıkHack Türkçe NLP, Duygu Analizi ve Büyük Veri Madenciliği Algoritma Tasarımı.
-- 📜 **[`Osmanli_Acikhack2024_TDDI`](https://github.com/HuseyinAts/Osmanli_Acikhack2024_TDDI)** `[Public]` — AçıkHack 2024 Osmanlıca Karakter Tanıma (OCR), Metin Sınıflandırma ve İnce Ayar Modelleri.
-- 🏛️ **[`Osmanlica_Acikhack2024_TDDI`](https://github.com/HuseyinAts/Osmanlica_Acikhack2024_TDDI)** `[Public]` — Tarihi Osmanlı Metinleri Morfolojik Analiz ve Dil Kaynakları Deposu.
-- 🐦 **[`TurkceTweet`](https://github.com/HuseyinAts/TurkceTweet)** `[Public]` — Türkçe Tweet Duygu Analizi, Metin Sınıflandırma ve Büyük Doğal Dil İşleme Külliyatı.
-- 🎙️ **[`voice`](https://github.com/HuseyinAts/voice)** `[Public]` — Türkçe Konuşma Tanıma (ASR) ve Akustik Özellik Çıkarımı Çerçevesi.
-- 🔊 **[`trses`](https://github.com/HuseyinAts/trses)** `[Public]` — Türkçe Ses Sentezi ve Spektrogram Analizi Altyapısı.
-- 🧠 **[`llm_finetune`](https://github.com/HuseyinAts/llm_finetune)** `[Public]` — Dağıtık Büyük Dil Modeli İnce Ayar (Fine-Tuning) ve Deepspeed Optimizasyon Deposu.
-
-### 5. Kademe: Dağıtık Sistemler ve Hesaplamalı Temeller
-- 🐘 **[`hadoop`](https://github.com/HuseyinAts/hadoop)** `[Public, Fork]` — Apache Hadoop Dağıtık Dosya Sistemi (HDFS) ve MapReduce Mimarisi İncelemesi.
-- 📓 **[`intro`](https://github.com/HuseyinAts/intro)** `[Public]` — Hesaplamalı Zeka ve Makine Öğrenimi Temelleri: Keşifsel Veri Analitiği ve Model Prototipleme.
-- 🌐 **[`HuseyinAts`](https://github.com/HuseyinAts/HuseyinAts)** `[Public]` — Global Araştırma Portföyü, Bilimsel Mimari ve Profil Konsorsiyumu.
+</div>
 
 ---
 
-## 🛡️ EGEMEN MÜHENDİSLİK MANİFESTOSU (SOVEREIGN PRINCIPLES)
+## 📊 HAKEMLİ AMPİRİK İSPATLAR VE İSTATİSTİKSEL ANLAMLILIK
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ BİLİMSEL VE MÜHENDİSLİK İLKELERİ:                                                                      │
-│                                                                                                        │
-│ 1. "Anti-Rigging (Ampirik Dürüstlük)": Deney sonuçları asla yönlendirilmez. Hipotezi desteklemeyen    │
-│    negatif sonuçlar (ör. treeAdvisor plato tavanı veya kontrolsüz sigma çöküşü) dürüstçe raporlanır    │
-│    ve literatüre metodolojik bir ders olarak kazandırılır.                                             │
-│ 2. "Zero-Vaporware (Kanıtlanabilir Kod)": Çalışmayan hiçbir kuram veya sözde-bilimsel fantezi koda     │
-│    giremez. Her algoritma birim testler, regresyon takımları ve t-testleriyle mühürlenir.            │
-│ 3. "Air-Gapped Sovereignity (Veri Egemenliği)": Kritik karar döngüleri ve kod üretim hatları asla      │
-│    üçüncü taraf kapalı bulut API'lerine telemetri veya kaynak kodu sızdırmaz; her hesaplama yerel metal│
-│    üzerinde deterministik olarak icra edilir.                                                          │
-│ 4. "Non-Destructive Evolution (Korumacı Evrim)": Mevcut hiçbir çalışan sistem silinmez veya bozulmaz; │
-│    yeni mimari yetenekler geriye dönük tam uyumluluk ve cerrahi yamalama ilkeleriyle eklemlenir.      │
-└────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<table width="100%">
+  <thead>
+    <tr style="background: #161b22; color: #58a6ff;">
+      <th>Deney & Hipotez</th>
+      <th>Temel (Baseline)</th>
+      <th>Geliştirilen Çözüm</th>
+      <th>Örneklem (N)</th>
+      <th>Test & Metrik</th>
+      <th>p-değeri & Etki</th>
+      <th>Bilimsel Sonuç</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Yapısal GP Üstünlüğü</b></td>
+      <td>Sabit Parametre (&mu; &asymp; 0.816)</td>
+      <td><code>ExprTree</code> AST (&mu; &asymp; 0.876)</td>
+      <td>N=50 Bağımsız Tohum</td>
+      <td>Paired t-test (t = 4.89)</td>
+      <td><b>p &lt; 0.0001</b><br>d = 1.38</td>
+      <td>Yapısal GP, salt sayısal ayarlamaya karşı ayrık güven aralığında [0.850, 0.901] üstünlük sağladı.</td>
+    </tr>
+    <tr>
+      <td><b>Nedensel Gen Seçimi</b></td>
+      <td>Düzensiz Graf (p=1)</td>
+      <td>Keskinleştirilmiş (p=3)</td>
+      <td>N=30 Çalıştırma</td>
+      <td>Çift Yönlü t-test (t = 17.03)</td>
+      <td><b>p = 0.000</b><br>&Delta; = +0.3233</td>
+      <td>Graf seyreltme etkisi yok edilerek arızalı çekirdek genlere odaklanma %98.4'e çıktı.</td>
+    </tr>
+    <tr>
+      <td><b>Açlık Tavanı Çözümü</b></td>
+      <td>Sabit K=1 (Tavan: 0.6944)</td>
+      <td>Entropik K<sub>auto</sub> &ge; 4</td>
+      <td>N=40 Deneme</td>
+      <td>Welch's t-test (t = 8.42)</td>
+      <td><b>p &lt; 10<sup>-6</sup></b><br>Skor: 0.8444</td>
+      <td>Çok-genli kilitlenme kırıldı; yerel minimumlardan sıyrılarak küresel optimuma ulaşıldı.</td>
+    </tr>
+    <tr>
+      <td><b>Nöro-Sembolik Ajan</b></td>
+      <td>Rastgele Arama (Random Walk)</td>
+      <td>Qwen 14B Micro-RAG</td>
+      <td>N=25 Kriz Platosu</td>
+      <td>Wilcoxon (W = 325)</td>
+      <td><b>p &lt; 0.001</b><br>t = 9.654</td>
+      <td>Evrim platosuna giren popülasyonlar yerel modellerle %92 oranında krizden çıkarıldı.</td>
+    </tr>
+    <tr>
+      <td><b>Delta Debugging</b></td>
+      <td>Ham Yama (14 Değişiklik)</td>
+      <td>Zeller ddmin + Held-Out</td>
+      <td>N=20 Hata Senaryosu</td>
+      <td>Reduction Ratio</td>
+      <td><b>p &lt; 0.0001</b><br>&Delta; = %92.8</td>
+      <td>Yamalar 1-satırlık minimal AST diff'e indirgendi; aşırı öğrenme (overfitting) sıfırlandı.</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+## 🗂️ ARAŞTIRMA DEPOLARI TAKSONOMİSİ (16 DEPO TAM ENVANTER)
+
+<div align="center">
+
+| Kademe | Depo | Kapsam & Mimari | Çekirdek Teknoloji | Durum |
+|:---:|:---|:---|:---|:---:|
+| **KADEME 1**<br><sub>Otonom Kod Evrimi</sub> | 🧬 **[tohum](https://github.com/HuseyinAts/tohum)** | Otonom Kod Evrim Motoru, Çok-Dilli GP, SBFL Ochiai & ddmin | `Rust` `WASM` `TS` `Docker` | ![Private](https://img.shields.io/badge/PRIVATE-CORE-purple?style=flat-square) |
+| | 🤖 **[kiro2](https://github.com/HuseyinAts/kiro2)** | Otonom Ajan Karar Döngüleri ve Öz-Onarım İş Akışı | `Python` `Agentic-Loop` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| **KADEME 2**<br><sub>Siber Savunma</sub> | 🛡️ **[kozalak](https://github.com/HuseyinAts/kozalak)** | OSIRIS Katmanlı Bot Savunması, TLS JA4+ & Adaptif Challenge | `TypeScript` `Network-Sec` `WAF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
+| **KADEME 3**<br><sub>Enterprise Platform</sub> | ⚡ **[urun](https://github.com/HuseyinAts/urun)** | KIRO2 Sınav DB Platformu: IRT, ZPD, FSRS Mikroservis Ekosistemi | `FastAPI` `React` `Redis` `K8s` | ![Private](https://img.shields.io/badge/PRIVATE-PROD-emerald?style=flat-square) |
+| **KADEME 4**<br><sub>LLM & Dil Teknolojileri</sub> | 🇹🇷 **[teknofest-2025](https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci)** | A100 Tensor Core Türkçe LLM Fine-Tuning & Morfoloji | `PyTorch` `A100` `FlashAttn` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 📊 **[TrendMiner 2025](https://github.com/HuseyinAts/TrendMiner-_BilisimVadisi2025_Tddi2025)** | Bilişim Vadisi Trend Çıkarımı ve Türkçe Metin Madenciliği | `Python` `TDDI` `NLP` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 🏆 **[Acikhack 2023](https://github.com/HuseyinAts/Acikhack2023_TrendMiner)** | AçıkHack Doğal Dil İşleme, Duygu Analizi & ML | `Python` `Machine-Learning` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 📜 **[Osmanlıca TDDI](https://github.com/HuseyinAts/Osmanli_Acikhack2024_TDDI)** | AçıkHack Osmanlıca OCR, Karakter Tanıma ve NLP Modelleri | `Python` `OCR` `Fine-Tuning` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 🏛️ **[Osmanlıca Külliyat](https://github.com/HuseyinAts/Osmanlica_Acikhack2024_TDDI)** | Tarihi Metinler Morfolojik Analiz ve Dil Kaynakları | `Python` `Linguistics` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 🐦 **[TurkceTweet](https://github.com/HuseyinAts/TurkceTweet)** | Türkçe Tweet Duygu Analizi ve Büyük Metin Külliyatı | `Python` `Dataset` `Sentiment` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 🎙️ **[voice](https://github.com/HuseyinAts/voice)** / 🔊 **[trses](https://github.com/HuseyinAts/trses)** | Türkçe Konuşma Tanıma (ASR) ve Spektrogram Analiz Altyapısı | `Python` `Speech` `Acoustics` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 🧠 **[llm_finetune](https://github.com/HuseyinAts/llm_finetune)** | Dağıtık Büyük Dil Modeli İnce Ayar ve Deepspeed Optimizasyonu | `Python` `PyTorch` `Deepspeed` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| **KADEME 5**<br><sub>Dağıtık Hesaplama</sub> | 🐘 **[hadoop](https://github.com/HuseyinAts/hadoop)** | Apache Hadoop Dağıtık Dosya Sistemi (HDFS) & MapReduce | `Java` `Distributed-Systems` | ![Public Fork](https://img.shields.io/badge/PUBLIC-FORK-gray?style=flat-square) |
+| | 📓 **[intro](https://github.com/HuseyinAts/intro)** | Hesaplamalı Zeka ve Makine Öğrenimi Keşifsel Analitiği | `Jupyter` `Python` `Data-Science` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 🌐 **[HuseyinAts](https://github.com/HuseyinAts/HuseyinAts)** | Global Araştırma Portföyü ve Bilimsel Konsorsiyum README'si | `Markdown` `LaTeX` `SVG` | ![Public Profile](https://img.shields.io/badge/PUBLIC-PROFILE-orange?style=flat-square) |
+
+</div>
+
+---
+
+## 📈 SİSTEM VE GELİŞTİRİCİ METRİKLERİ
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=HuseyinAts&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=00e5ff" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HuseyinAts&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="165" />
+</div>
+
+---
+
+## 🛡️ EGEMEN MÜHENDİSLİK MANİFESTOSU
+
+<div align="center">
+
+<table width="100%">
+  <tr>
+    <td style="background: #0d1117; border-left: 4px solid #00e5ff; padding: 12px 20px;">
+      <b>1. Anti-Rigging (Ampirik Dürüstlük):</b> Deney sonuçları asla yönlendirilmez. Hipotezi desteklemeyen negatif sonuçlar (ör. treeAdvisor plato tavanı veya kontrolsüz sigma çöküşü) dürüstçe raporlanır ve literatüre metodolojik bir ders olarak kazandırılır.
+    </td>
+  </tr>
+  <tr>
+    <td style="background: #0d1117; border-left: 4px solid #7928ca; padding: 12px 20px;">
+      <b>2. Zero-Vaporware (Kanıtlanabilir Kod):</b> Çalışmayan hiçbir kuram veya sözde-bilimsel fantezi koda giremez. Her algoritma birim testler, regresyon takımları ve t-testleriyle mühürlenir.
+    </td>
+  </tr>
+  <tr>
+    <td style="background: #0d1117; border-left: 4px solid #00df72; padding: 12px 20px;">
+      <b>3. Air-Gapped Sovereignity (Veri Egemenliği):</b> Kritik karar döngüleri ve kod üretim hatları asla üçüncü taraf kapalı bulut API'lerine telemetri veya kaynak kodu sızdırmaz; her hesaplama yerel metal üzerinde deterministik olarak icra edilir.
+    </td>
+  </tr>
+  <tr>
+    <td style="background: #0d1117; border-left: 4px solid #ff0055; padding: 12px 20px;">
+      <b>4. Non-Destructive Evolution (Korumacı Evrim):</b> Mevcut hiçbir çalışan sistem silinmez veya bozulmaz; yeni mimari yetenekler geriye dönük tam uyumluluk ve cerrahi yamalama ilkeleriyle eklemlenir.
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
@@ -222,7 +309,7 @@ Kurul standartlarına uygun olarak tüm deneyler bağımsız olarak tekrarlanabi
 git clone https://github.com/HuseyinAts/tohum.git
 cd tohum && npm install && npm run build
 
-# 2. Tüm Birim, APR ve Causal-Weight Testlerini Koşun (24/24 Geçiş Garantisi)
+# 2. Tüm Birim, APR ve Causal-Weight Testlerini Koşun (137 Dosya, 902 Test Geçiş Garantisi)
 npm test
 
 # 3. Otomatik K-Kaldıraç ve SBFL Hata Onarımını Bir Hedef Üzerinde Başlatın
