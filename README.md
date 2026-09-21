@@ -1,73 +1,76 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/main/assets/hero-banner.jpg" alt="Hüseyin Ateş - AI Systems & Security" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+<!-- HERO BENTO -->
+  <img src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/main/assets/hero-banner.jpg" alt="Hüseyin Ateş - AI Systems & Security" width="100%" style="border-radius: 15px; margin-bottom: 20px;" />
 
-  # Hüseyin Ateş
-  
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Yapay+Zeka+ve+Sistem+M%C3%BChnedisi;Siber+G%C3%BCvenlik+Ara%C5%9Ft%C4%B1rmac%C4%B1s%C4%B1;D%C3%BC%C5%9F%C3%BCk+Seviye+Yaz%C4%B1l%C4%B1m+Geli%C5%9Ftirici;Otonom+Sistemler+Mimari" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Otonom+Sistemler+ve+Yapay+Zeka+Mimari;Siber+G%C3%BCvenlik+Ara%C5%9Ft%C4%B1rmac%C4%B1s%C4%B1;D%C3%BC%C5%9F%C3%BCk+Seviye+Performans+M%C3%BChnedisi" alt="Typing SVG" />
   </a>
-
-  <p>
+  <p align="center">
     <a href="mailto:iletisim@example.com"><img src="https://img.shields.io/badge/İletişim-Email-red?style=for-the-badge&logo=mail.ru&logoColor=white" /></a>
-    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Profil-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Ağım-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 
+<br>
+
+<!-- BENTO GRID (TECH STACK & METRICS) -->
+<div>
+  <!-- Sol Kutu (Tech Stack) -->
+  <img align="left" width="49%" src="https://skillicons.dev/icons?i=python,rust,typescript,go,c,cpp,pytorch,docker,kubernetes,postgres,linux,git&theme=dark&perline=4" alt="Tech Stack Bento" />
+
+  <!-- Sağ Kutu (Metrics) -->
+  <img align="right" width="49%" src="https://github-readme-stats.vercel.app/api?username=HuseyinAts&show_icons=true&theme=tokyonight&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117" alt="GitHub Stats Bento" />
 </div>
 
----
+<br clear="both">
+<br>
 
-### 🚀 Hakkımda
-
-Karmaşık sistemleri basitleştiren, veriye dayalı kararlar alan ve modern teknolojilerle çalışan bir sistem mühendisiyim. 2026 standartlarında, performans odaklı ve güvenli yazılım mimarileri tasarlıyorum.
-
-*   **⚡ Odak Alanlarım:** Yapay Zeka (LLM, NLP), Siber Güvenlik (Vulnerability Research), Düşük Seviye Sistemler (Rust, C/C++) ve Ölçeklenebilir Backend (Python, Go).
-*   **🎯 Felsefem:** Sade kod, maksimum performans ve sıfır tavizli güvenlik.
-
----
-
-### 💻 Teknoloji Yığını
-
+<!-- BENTO GRID 3 (SNAKE ANIMATION) -->
+<h3 align="center">🐍 365 Günlük Katkı Aktivitesi</h3>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,rust,typescript,go,c,cpp,pytorch,docker,kubernetes,postgres,linux,git&theme=dark&perline=12" />
+  <picture>
+    <!-- Dark Mode Snake -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/output/github-contribution-grid-snake-dark.svg">
+    <!-- Light Mode Snake -->
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
 </div>
 
----
+<br>
 
-### 🔥 Öne Çıkan Projeler
+<!-- BENTO GRID 4 (PROJELER) -->
+<h3 align="center">🚀 Odak Projeler (Vitrin)</h3>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <b>🇹🇷 Teknofest 2025 LLM</b><br>
+      <i>A100 Tensor Core ile Türkçe LLM Eğitimi, Özel Tokenizer.</i><br><br>
+      <a href="https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci"><img src="https://img.shields.io/badge/İncele-Proje-58A6FF?style=for-the-badge&logo=github&logoColor=white"></a>
+    </td>
+    <td width="50%" align="center">
+      <b>🤖 Kiro2 Platform</b><br>
+      <i>Akıllı Soru Bankası Çıkarımı, IRT & FSRS Eğitim Sistemi.</i><br><br>
+      <a href="https://github.com/HuseyinAts/kiro2"><img src="https://img.shields.io/badge/İncele-Proje-58A6FF?style=for-the-badge&logo=github&logoColor=white"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>🛡️ Mersin (CRS)</b><br>
+      <i>Otonom Siber Muhakeme Sistemi. Zafiyet ve yama üretimi.</i><br><br>
+      <img src="https://img.shields.io/badge/Durum-Özel_Erişim-red?style=for-the-badge&logo=git&logoColor=white">
+    </td>
+    <td width="50%" align="center">
+      <b>📜 Osmanlıca TDDI</b><br>
+      <i>TEKNOFEST 2024 Osmanlıca Metin Analizi (OCR & NLP).</i><br><br>
+      <a href="https://github.com/HuseyinAts/Osmanli_Acikhack2024_TDDI"><img src="https://img.shields.io/badge/İncele-Proje-58A6FF?style=for-the-badge&logo=github&logoColor=white"></a>
+    </td>
+  </tr>
+</table>
 
-Modern ve üretim (production) kalitesindeki açık kaynak çalışmalarım:
+<br>
+<p align="center">
+  <sub>© 2026 Hüseyin Ateş · Sadelik, Yüksek Sinyal ve Güvenlik Odaklı Sistem Tasarımı</sub>
+</p>
 
-| Proje | Açıklama | Teknolojiler | Durum |
-| :--- | :--- | :--- | :---: |
-| 🇹🇷 **[Teknofest 2025 LLM](https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci)** | A100 Tensor Core ile Türkçe LLM Eğitimi, Özel Tokenizer ve NLP Benchmark Hattı. | `PyTorch` `Qwen` `NLP` | 🟢 Aktif |
-| 🤖 **[Kiro2 Platform](https://github.com/HuseyinAts/kiro2)** | Akıllı Soru Bankası Çıkarımı, IRT & FSRS Uyarlamalı Eğitim ve Sınav Sistemi. | `FastAPI` `React` `YOLO` | 🟢 Aktif |
-| 🛡️ **Mersin (CRS)** | Otonom Siber Muhakeme Sistemi (CRS). Zafiyet analizi ve otomatik yama üretimi. | `Rust` `Python` `ASM` | 🔒 Özel |
-| 📜 **[Osmanlıca TDDI](https://github.com/HuseyinAts/Osmanli_Acikhack2024_TDDI)** | TEKNOFEST 2024 Osmanlıca Metin Analizi, Karakter Tanıma ve Dil Modelleri. | `Python` `OCR` `NLP` | 🟢 Aktif |
-
----
-
-### 📊 GitHub İstatistikleri
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HuseyinAts&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HuseyinAts&layout=compact&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9" height="150" alt="Top Langs" />
-</div>
-
----
-
-### ⚡ Hızlı Deneme (Quickstart)
-
-Projelerimi yerel ortamınızda test etmek için:
-
-```bash
-# Türkçe LLM Tokenizer & NLP Benchmark testini çalıştırın:
-git clone https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci.git
-cd teknofest-2025-egitim-eylemci
-python test_turkish_nlp_simple.py
-```
-
-<div align="center">
-  <br>
-  <sub>© 2026 Hüseyin Ateş · Sadelik ve Güvenlik Odaklı Sistem Tasarımı</sub>
 </div>
