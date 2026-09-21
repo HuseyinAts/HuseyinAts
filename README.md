@@ -1,349 +1,73 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/main/assets/hero-banner.jpg" alt="Hüseyin Ateş - Principal AI Systems Architect & Cybernetics Lab" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.6);" />
+  <img src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/main/assets/hero-banner.jpg" alt="Hüseyin Ateş - AI Systems & Security" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
 
-  <br><br>
-
-  <h1>Hüseyin Ateş</h1>
-  <h3>Principal AI Systems Architect & Autonomous Cybernetics Researcher</h3>
+  # Hüseyin Ateş
   
-  <p>
-    <b>Istanbul, Turkey</b> · 
-    <a href="https://github.com/HuseyinAts"><b>GitHub: @HuseyinAts</b></a> · 
-    <b>Autonomous Systems & Cybernetics Research Laboratory (ASCRL)</b>
-  </p>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Yapay+Zeka+ve+Sistem+M%C3%BChnedisi;Siber+G%C3%BCvenlik+Ara%C5%9Ft%C4%B1rmac%C4%B1s%C4%B1;D%C3%BC%C5%9F%C3%BCk+Seviye+Yaz%C4%B1l%C4%B1m+Geli%C5%9Ftirici;Otonom+Sistemler+Mimari" alt="Typing SVG" />
+  </a>
 
   <p>
-    <img src="https://img.shields.io/badge/PARADIGM-SOVEREIGN_CYBERNETICS-00e5ff?style=for-the-badge&logo=probot&logoColor=black" />
-    <img src="https://img.shields.io/badge/ARCHITECTURE-ZERO_CLOUD_LEAKAGE-7928ca?style=for-the-badge&logo=shield&logoColor=white" />
-    <img src="https://img.shields.io/badge/ENGINE-MULTI_LANG_GP-00df72?style=for-the-badge&logo=rust&logoColor=white" />
-    <img src="https://img.shields.io/badge/APR-OCHIAI_SBFL_%26_DDMIN-ff0055?style=for-the-badge&logo=dependabot&logoColor=white" />
+    <a href="mailto:iletisim@example.com"><img src="https://img.shields.io/badge/İletişim-Email-red?style=for-the-badge&logo=mail.ru&logoColor=white" /></a>
+    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Profil-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 
-  <br>
-
-  <table width="100%">
-    <tr>
-      <td align="center" style="background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 18px;">
-        <h4 style="margin: 0; color: #58a6ff;">🔬 ARAŞTIRMA MANİFESTOSU VE SİBERNETİK TEZİ</h4>
-        <p style="color: #8b949e; font-size: 14px; line-height: 1.6; margin: 10px 0 0 0;">
-          <em>"Yazılım statik bir metin dosyası değil; çalışma zamanında (runtime) polimorfik olarak mutasyona uğrayan, dış bulut sağlayıcılarına sıfır telemetri sızdıran (air-gapped), cgroups/namespaces sınırlarında tecrit edilmiş potalarda nedensel graf modelleri (DAG) ve yapısal genetik programlama (GP) ile kendi kendini onaran deterministik dinamik bir organizmadır."</em>
-        </p>
-      </td>
-    </tr>
-  </table>
-
 </div>
 
 ---
 
-## 🏛️ TEORİK ESİN KAYNAKLARI VE MİMARİ İLKELER (FOUNDATIONAL ECOLES)
+### 🚀 Hakkımda
 
-Bu profil ve bünyesindeki araştırma sistemleri, bilgisayar bilimleri tarihinin öncü kuramcılarının metodolojik disiplinleri ve tasarım felsefeleri referans alınarak yapılandırılmıştır:
+Karmaşık sistemleri basitleştiren, veriye dayalı kararlar alan ve modern teknolojilerle çalışan bir sistem mühendisiyim. 2026 standartlarında, performans odaklı ve güvenli yazılım mimarileri tasarlıyorum.
+
+*   **⚡ Odak Alanlarım:** Yapay Zeka (LLM, NLP), Siber Güvenlik (Vulnerability Research), Düşük Seviye Sistemler (Rust, C/C++) ve Ölçeklenebilir Backend (Python, Go).
+*   **🎯 Felsefem:** Sade kod, maksimum performans ve sıfır tavizli güvenlik.
+
+---
+
+### 💻 Teknoloji Yığını
 
 <div align="center">
-
-<table width="100%" style="border-collapse: collapse; margin: 20px 0;">
-  <tr>
-    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
-      <img src="https://img.shields.io/badge/LINUS_TORVALDS-SYSTEMS_%26_KERNEL-0969da?style=for-the-badge&logo=linux&logoColor=white" /><br><br>
-      <b>Düşük Seviye İzolasyon & OS</b><br>
-      <sub style="color: #8b949e;">Docker potası (--network=none) · cgroups kısıtı (1 CPU, 512MB) · tmpfs tecriti · Deterministik POSIX</sub>
-    </td>
-    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
-      <img src="https://img.shields.io/badge/JUDEA_PEARL-CAUSAL_INFERENCE-8250df?style=for-the-badge&logo=graphql&logoColor=white" /><br><br>
-      <b>Yapısal Nedensellik & DAG</b><br>
-      <sub style="color: #8b949e;">Do-Calculus · w^p spektral difüzyon · Shannon bilgi entropisi · Dinamik K >= |leverage-set| kestirimi</sub>
-    </td>
-    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
-      <img src="https://img.shields.io/badge/JOHN_KOZA-GENETIC_PROGRAMMING-1a7f37?style=for-the-badge&logo=treehouse&logoColor=white" /><br><br>
-      <b>Yapısal Ağaç Evrimi (GP)</b><br>
-      <sub style="color: #8b949e;">ExprTree boolean AST mutasyonu · Homolog ağaç çaprazlama · Çok-amaçlı parsimony (bloat kontrolü)</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
-      <img src="https://img.shields.io/badge/ANDREAS_ZELLER-FAULT_LOCALIZATION-cf222e?style=for-the-badge&logo=dependabot&logoColor=white" /><br><br>
-      <b>Hata Lokalizasyonu & APR</b><br>
-      <sub style="color: #8b949e;">Ochiai SBFL spektrum matrisi · Zeller ddmin minimal yama indirgeme · Held-out bağımsız test ayrımı</sub>
-    </td>
-    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
-      <img src="https://img.shields.io/badge/ANDREJ_KARPATHY-NEURO_SYMBOLIC-bc4c00?style=for-the-badge&logo=openai&logoColor=white" /><br><br>
-      <b>Yerel Nöro-Sembolik Ajanlar</b><br>
-      <sub style="color: #8b949e;">A100 Tensor Core TF32/FlashAttn-2 · Yerel Ollama Qwen-Coder 14B · Cerrahi AST Micro-RAG bağlamı</sub>
-    </td>
-    <td width="33%" align="center" valign="top" style="padding: 16px; background: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
-      <img src="https://img.shields.io/badge/LESLIE_LAMPORT-FORMAL_VERIFICATION-1b7c83?style=for-the-badge&logo=latex&logoColor=white" /><br><br>
-      <b>Durum Değişmezleri & Konsensüs</b><br>
-      <sub style="color: #8b949e;">OODA evrim döngüsü durum çizgesi · TLA+ değişmezleri · Dağıtık mikroservis tutarlılığı (K8s)</sub>
-    </td>
-  </tr>
-</table>
-
+  <img src="https://skillicons.dev/icons?i=python,rust,typescript,go,c,cpp,pytorch,docker,kubernetes,postgres,linux,git&theme=dark&perline=12" />
 </div>
 
 ---
 
-## 🧬 UÇTAN UCA BÜTÜNLEŞİK SİSTEM MİMARİSİ
+### 🔥 Öne Çıkan Projeler
+
+Modern ve üretim (production) kalitesindeki açık kaynak çalışmalarım:
+
+| Proje | Açıklama | Teknolojiler | Durum |
+| :--- | :--- | :--- | :---: |
+| 🇹🇷 **[Teknofest 2025 LLM](https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci)** | A100 Tensor Core ile Türkçe LLM Eğitimi, Özel Tokenizer ve NLP Benchmark Hattı. | `PyTorch` `Qwen` `NLP` | 🟢 Aktif |
+| 🤖 **[Kiro2 Platform](https://github.com/HuseyinAts/kiro2)** | Akıllı Soru Bankası Çıkarımı, IRT & FSRS Uyarlamalı Eğitim ve Sınav Sistemi. | `FastAPI` `React` `YOLO` | 🟢 Aktif |
+| 🛡️ **Mersin (CRS)** | Otonom Siber Muhakeme Sistemi (CRS). Zafiyet analizi ve otomatik yama üretimi. | `Rust` `Python` `ASM` | 🔒 Özel |
+| 📜 **[Osmanlıca TDDI](https://github.com/HuseyinAts/Osmanli_Acikhack2024_TDDI)** | TEKNOFEST 2024 Osmanlıca Metin Analizi, Karakter Tanıma ve Dil Modelleri. | `Python` `OCR` `NLP` | 🟢 Aktif |
+
+---
+
+### 📊 GitHub İstatistikleri
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/main/assets/system-architecture.jpg" alt="Autonomous Self-Healing & Causal Architecture Dataflow" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin: 16px 0;" />
-  <p><sub style="color: #8b949e;"><b>Şekil 1:</b> Çok-Dilli Monorepo Ingestion, Nedensel Graf Dağıtımı, SBFL Hata Lokalizasyonu, Docker Tecrit Potası ve Zeller ddmin Yama İndirgeme Veri Akış Topolojisi.</sub></p>
-</div>
-
-<details>
-<summary><b>🔍 ASCII Veri Akış Şeması ve Modül İletişim Detayları (Genişletmek İçin Tıklayın)</b></summary>
-
-```
-                           [ HEDEF KOD TABANI / ÇOK-DİLLİ MONOREPO ]
-                                (Rust, WASM, TypeScript, Python, Go)
-                                                  │
-                                                  ▼
-┌─────────────────────────────────────── Ingestion & AST Parser ────────────────────────────────────────┐
-│ AST çıkarımı, fonksiyon çağrı grafı (CALLS) ve modül bağımlılık matrisi (IMPORTS)                    │
-└─────────────────────────────────────────────────┬─────────────────────────────────────────────────────┘
-                                                  │
-                                                  ▼
-┌─────────────────────────────────────── Bellek & Nedensel Graf ────────────────────────────────────────┐
-│ In-Memory JSON Graph Engine · Spektral Laplace Matrisi · Düğüm ve Kenar Dereceleri                   │
-└───────────────────────┬─────────────────────────────────────────────────────────┬─────────────────────┘
-                        │                                                         │
-                        ▼ (Statik w^p)                                            ▼ (LCOV Traces)
-┌───────────────────────────────────────────────┐         ┌───────────────────────────────────────────────┐
-│     genome/leverageEstimator.ts               │         │        crucible/coverage.ts                   │
-│     • Shannon Entropisi: H(p) = -Σ p ln p     │         │        • Ochiai / Tarantula SBFL İndeksi      │
-│     • K_auto >= |leverage-set| Kestirimi      │         │        • Şüpheli İfade & Satır İzolasyonu     │
-└───────────────────────┬───────────────────────┘         └───────────────────────┬───────────────────────┘
-                        │                                                         │
-                        └───────────────────────┬─────────────────────────────────┘
-                                                │
-                                                ▼
-┌─────────────────────────────────────── genome/graphWeights.ts ────────────────────────────────────────┐
-│ Causal Fusion Engine: Dinamik Ochiai Şüphesi + Statik w^p Difüzyonu -> Nihai Seçim Ağırlıkları        │
-└───────────────────────────────────────────────┬───────────────────────────────────────────────────────┘
-                                                │
-                                                ▼
-┌─────────────────────────────────────── core/evoloop.ts (OODA) ────────────────────────────────────────┐
-│ Turnuva Seçilimi (k=5) + Koza ExprTree GP + AST Cerrahi APR (Guard, Delete, Off-By-One)              │
-└───────────────────────┬─────────────────────────────────────────────────────────┬─────────────────────┘
-                        │                                                         │
-                        ▼ (Aday Yama / Mutasyon)                                  ▼ (Plato Tespiti: p < 0.001)
-┌───────────────────────────────────────────────┐         ┌───────────────────────────────────────────────┐
-│     crucible/dockerArena.ts                   │         │        swarm/advisor.ts (Neuro-Symbolic)      │
-│     • Tam Tecrit: --network=none              │         │        • Yerel LLM: Qwen-Coder 8B/14B (Ollama)│
-│     • Kaynak Sınırı: 1 CPU, 512MB, tmpfs      │         │        • Cerrahi AST Micro-RAG Bağlamı        │
-│     • Test Suite Fitness Koşumu (Pass/Fail)   │         │        • Sıfır Bulut Bağımlılığı / Sıfır Sızıntı│
-└───────────────────────┬───────────────────────┘         └───────────────────────┬───────────────────────┘
-                        │                                                         │
-                        └───────────────────────┬─────────────────────────────────┘
-                                                │ (Fitness = 1.0 Başarılı Yama)
-                                                ▼
-┌─────────────────────────────────────── crucible/patchReducer.ts ──────────────────────────────────────┐
-│ Andreas Zeller ddmin (Delta Debugging) Yama Küçültücü + Held-Out Test Seti Doğrulaması               │
-│ [Sonuç: Aşırı öğrenmeden arındırılmış, 1-satırlık minimal ve kanıtlanmış cerrahi yama]                │
-└───────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-</details>
-
----
-
-## 📐 MATEMATİKSEL VE TEORİK FORMÜLASYON
-
-Sistemlerin otonom karar mekanizmaları ampirik sezgilere değil, aşağıdaki kapalı form matematiksel ifadelere dayanır:
-
-### 1. Ochiai Spektrum Tabanlı Hata Lokalizasyonu (SBFL)
-> Başarısız test infaz sıklığı ile normalize edilmiş şüphe indeksi çıkarımı:
-```math
-S_{\text{Ochiai}}(s) = \frac{e_f(s)}{\sqrt{\text{failed}_{\text{total}} \cdot \left(e_f(s) + e_p(s)\right)}}
-```
-
-### 2. Nedensel Difüzyon ve $w^p$ Keskinleştirme
-> Dinamik çalışma zamanı arıza sinyali ile statik import erişiminin ($w^p$) füzyonu:
-```math
-w_i = \begin{cases} 5 \cdot S_{\text{Ochiai}}(i) + w^p_i, & \text{if } S_{\text{Ochiai}}(i) > 0 \\ \epsilon \cdot w^p_i, & \text{if } S_{\text{Ochiai}}(i) = 0 \quad (\epsilon = 0.05) \end{cases}
-```
-
-### 3. Shannon Entropisi ile Dinamik Kaldıraç Kümesi Kestirimi ($K_{\text{auto}}$)
-> $K=1$ açlık tavanını kıran ve dinamik kaldıraç kümesi kardinalitesini belirleyen kestirim:
-```math
-H(p) = -\sum_{i=1}^M p_i \ln p_i \implies K_{\text{auto}} = \max\left(1, \lceil \exp(H(p)) \rceil\right)
-```
-
-### 4. Koza Çok-Amaçlı Parsimony Baskı Fonksiyonu
-> Genetik programlama ağaçlarında kod şişkinliğini (bloat) engelleyen çok-amaçlı optimizasyon:
-```math
-\mathcal{F}_{\text{penalized}}(T) = \mathcal{F}_{\text{raw}}(T) - \lambda_{\text{depth}} \cdot \text{Depth}(T) - \lambda_{\text{nodes}} \cdot |\text{Nodes}(T)|
-```
-
-### 5. Zeller 1-Minimal Delta Debugging Koşulu ($ddmin$)
-> Sentetik yamaların test takımına aşırı öğrenmesini (overfitting) engelleyen 1-satırlık minimal diff:
-```math
-c' \subseteq c \quad \text{such that} \quad \text{Oracle}(c') = \text{Pass} \quad \wedge \quad \forall c'' \subset c', \ \text{Oracle}(c'') = \text{Fail}
-```
-
----
-
-## 📊 DAHİLİ LABORATUVAR BENCHMARK DENEYLERİ VE İSTATİSTİKSEL ANLAMLILIK
-
-Aşağıdaki metrikler; kapalı laboratuvar ortamında tohum genetik programlama motoru, otonom karar modülleri ve yerel modeller üzerinde koşturulan bağımsız test serilerinin (toplam $N=165$ kontrollü deneme) istatistiksel hipotez testi sonuçlarıdır:
-
-<div align="center">
-
-<table width="100%">
-  <thead>
-    <tr style="background: #161b22; color: #58a6ff;">
-      <th>Deney & Hipotez</th>
-      <th>Temel (Baseline)</th>
-      <th>Geliştirilen Çözüm</th>
-      <th>Örneklem (N)</th>
-      <th>Test & Metrik</th>
-      <th>p-değeri & Etki</th>
-      <th>Bilimsel Sonuç</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Yapısal GP Üstünlüğü</b></td>
-      <td>Sabit Parametre (&mu; &asymp; 0.816)</td>
-      <td><code>ExprTree</code> AST (&mu; &asymp; 0.876)</td>
-      <td>N=50 Bağımsız Tohum</td>
-      <td>Paired t-test (t = 4.89)</td>
-      <td><b>p &lt; 0.0001</b><br>d = 1.38</td>
-      <td>Yapısal GP, salt sayısal ayarlamaya karşı ayrık güven aralığında [0.850, 0.901] üstünlük sağladı.</td>
-    </tr>
-    <tr>
-      <td><b>Nedensel Gen Seçimi</b></td>
-      <td>Düzensiz Graf (p=1)</td>
-      <td>Keskinleştirilmiş (p=3)</td>
-      <td>N=30 Çalıştırma</td>
-      <td>Çift Yönlü t-test (t = 17.03)</td>
-      <td><b>p = 0.000</b><br>&Delta; = +0.3233</td>
-      <td>Graf seyreltme etkisi yok edilerek arızalı çekirdek genlere odaklanma %98.4'e çıktı.</td>
-    </tr>
-    <tr>
-      <td><b>Açlık Tavanı Çözümü</b></td>
-      <td>Sabit K=1 (Tavan: 0.6944)</td>
-      <td>Entropik K<sub>auto</sub> &ge; 4</td>
-      <td>N=40 Deneme</td>
-      <td>Welch's t-test (t = 8.42)</td>
-      <td><b>p &lt; 10<sup>-6</sup></b><br>Skor: 0.8444</td>
-      <td>Çok-genli kilitlenme kırıldı; yerel minimumlardan sıyrılarak küresel optimuma ulaşıldı.</td>
-    </tr>
-    <tr>
-      <td><b>Nöro-Sembolik Ajan</b></td>
-      <td>Rastgele Arama (Random Walk)</td>
-      <td>Qwen 14B Micro-RAG</td>
-      <td>N=25 Kriz Platosu</td>
-      <td>Wilcoxon (W = 325)</td>
-      <td><b>p &lt; 0.001</b><br>t = 9.654</td>
-      <td>Evrim platosuna giren popülasyonlar yerel modellerle %92 oranında krizden çıkarıldı.</td>
-    </tr>
-    <tr>
-      <td><b>Delta Debugging</b></td>
-      <td>Ham Yama (14 Değişiklik)</td>
-      <td>Zeller ddmin + Held-Out</td>
-      <td>N=20 Hata Senaryosu</td>
-      <td>Reduction Ratio</td>
-      <td><b>p &lt; 0.0001</b><br>&Delta; = %92.8</td>
-      <td>Yamalar 1-satırlık minimal AST diff'e indirgendi; aşırı öğrenme (overfitting) sıfırlandı.</td>
-    </tr>
-  </tbody>
-</table>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=HuseyinAts&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HuseyinAts&layout=compact&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9" height="150" alt="Top Langs" />
 </div>
 
 ---
 
-## 🗂️ ARAŞTIRMA DEPOLARI TAKSONOMİSİ (16 DEPO TAM ENVANTER)
+### ⚡ Hızlı Deneme (Quickstart)
 
-<div align="center">
+Projelerimi yerel ortamınızda test etmek için:
 
-| Kademe | Depo | Kapsam & Mimari | Çekirdek Teknoloji | Durum |
-|:---:|:---|:---|:---|:---:|
-| **KADEME 1**<br><sub>Otonom Kod Evrimi & CRS</sub> | 🧬 **tohum** <sub>(Proprietary Core)</sub> | Otonom Kod Evrim Motoru, Çok-Dilli GP, SBFL Ochiai & ddmin | `Rust` `WASM` `TS` `Docker` | ![Private](https://img.shields.io/badge/PRIVATE-CORE-purple?style=flat-square) |
-| | 🛡️ **mersin** <sub>(CRS Core)</sub> | 2026 Otonom Siber Muhakeme Sistemi (CRS), 5 Alt Sistem, 4 Doğrulama Kapısı, InSPECtor & KernelRCA (USENIX '26) | `Python` `Rust` `x64 ASM` `SARIF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
-| | 🛡️ **kozalak** <sub>(Anti-Bot WAF)</sub> | OSIRIS Katmanlı Bot Savunması, TLS JA4+ & Adaptif Challenge | `TypeScript` `Network-Sec` `WAF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
-| **KADEME 2**<br><sub>Enterprise & Uyarlamalı Sistemler</sub> | 🤖 **[kiro2](https://github.com/HuseyinAts/kiro2)** | Akıllı Soru Bankası Çıkarımı, IRT & FSRS Uyarlamalı Sınav Platformu | `FastAPI` `React` `PostgreSQL` `YOLO` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | ⚡ **urun** <sub>(Sınav DB)</sub> | Enterprise Sınav DB Platformu: IRT, ZPD, FSRS Mikroservis Ekosistemi | `FastAPI` `React` `Redis` `K8s` | ![Private](https://img.shields.io/badge/PRIVATE-PROD-emerald?style=flat-square) |
-| **KADEME 3**<br><sub>LLM, NLP & Makine Öğrenimi</sub> | 🇹🇷 **[teknofest-2025](https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci)** | A100 Tensor Core Türkçe LLM Eğitimi, Özel Tokenizer & Benchmark | `PyTorch` `Qwen` `HuggingFace` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 📊 **[TrendMiner 2025](https://github.com/HuseyinAts/TrendMiner-_BilisimVadisi2025_Tddi2025)** | Bilişim Vadisi 2025 TDDI Türkçe Trend Analizi ve Büyük Veri Madenciliği | `Jupyter` `TDDI` `NLP` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 🏆 **[Acikhack 2023](https://github.com/HuseyinAts/Acikhack2023_TrendMiner)** | AçıkHack 2023 Doğal Dil İşleme, Duygu Analizi & ML Modelleri | `Jupyter` `Machine-Learning` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 📜 **[Osmanlıca TDDI](https://github.com/HuseyinAts/Osmanli_Acikhack2024_TDDI)** | TEKNOFEST 2024 Osmanlıca Metin Analizi, Karakter Tanıma ve Dil Modelleri | `Python` `OCR` `NLP` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 🐦 **[TurkceTweet](https://github.com/HuseyinAts/TurkceTweet)** | Türkçe Tweet Duygu Analizi ve Metin Sınıflandırma Veri Külliyatı | `Python` `Dataset` `Sentiment` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 📓 **[intro](https://github.com/HuseyinAts/intro)** | Hesaplamalı Zeka ve Makine Öğrenimi Temelleri | `Jupyter` `Python` `Data-Science` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| **KADEME 4**<br><sub>Ar-Ge & Prototip Hazırlık</sub> | 🎙️ **[voice](https://github.com/HuseyinAts/voice)** / 🔊 **[trses](https://github.com/HuseyinAts/trses)** | Türkçe Konuşma ve Ses Spektrogram Analiz Altyapısı *(Prototip / Ar-Ge)* | `Python` `Speech` `Acoustics` | ![WIP](https://img.shields.io/badge/STUB-WIP-grey?style=flat-square) |
-| | 🧠 **[llm_finetune](https://github.com/HuseyinAts/llm_finetune)** | Dağıtık LLM İnce Ayar ve Optimizasyon Hattı *(Ar-Ge Hazırlık)* | `Python` `PyTorch` | ![WIP](https://img.shields.io/badge/STUB-WIP-grey?style=flat-square) |
-| **KADEME 5**<br><sub>Profil & Ekosistem</sub> | 🌐 **[HuseyinAts](https://github.com/HuseyinAts/HuseyinAts)** | Hüseyin Ateş GitHub Profil Sayfası ve Araştırma Matrisi | `Markdown` `LaTeX` `SVG` | ![Public Profile](https://img.shields.io/badge/PUBLIC-PROFILE-orange?style=flat-square) |
-| | 🐘 **[hadoop](https://github.com/HuseyinAts/hadoop)** | Apache Hadoop Dağıtık Dosya Sistemi (HDFS) & MapReduce | `Java` `Distributed-Systems` | ![Public Fork](https://img.shields.io/badge/UPSTREAM-FORK-lightgrey?style=flat-square) |
-
-</div>
-
----
-
-## 📈 SİSTEM VE GELİŞTİRİCİ METRİKLERİ
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HuseyinAts&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=00e5ff" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HuseyinAts&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="165" />
-</div>
-
----
-
-## 🛡️ EGEMEN MÜHENDİSLİK MANİFESTOSU
-
-<div align="center">
-
-<table width="100%">
-  <tr>
-    <td style="background: #0d1117; border-left: 4px solid #00e5ff; padding: 12px 20px;">
-      <b>1. Anti-Rigging (Ampirik Dürüstlük):</b> Deney sonuçları asla yönlendirilmez. Hipotezi desteklemeyen negatif sonuçlar (ör. treeAdvisor plato tavanı veya kontrolsüz sigma çöküşü) dürüstçe raporlanır ve literatüre metodolojik bir ders olarak kazandırılır.
-    </td>
-  </tr>
-  <tr>
-    <td style="background: #0d1117; border-left: 4px solid #7928ca; padding: 12px 20px;">
-      <b>2. Zero-Vaporware (Kanıtlanabilir Kod):</b> Çalışmayan hiçbir kuram veya sözde-bilimsel fantezi koda giremez. Her algoritma birim testler, regresyon takımları ve t-testleriyle mühürlenir.
-    </td>
-  </tr>
-  <tr>
-    <td style="background: #0d1117; border-left: 4px solid #00df72; padding: 12px 20px;">
-      <b>3. Air-Gapped Sovereignity (Veri Egemenliği):</b> Kritik karar döngüleri ve kod üretim hatları asla üçüncü taraf kapalı bulut API'lerine telemetri veya kaynak kodu sızdırmaz; her hesaplama yerel metal üzerinde deterministik olarak icra edilir.
-    </td>
-  </tr>
-  <tr>
-    <td style="background: #0d1117; border-left: 4px solid #ff0055; padding: 12px 20px;">
-      <b>4. Non-Destructive Evolution (Korumacı Evrim):</b> Mevcut hiçbir çalışan sistem silinmez veya bozulmaz; yeni mimari yetenekler geriye dönük tam uyumluluk ve cerrahi yamalama ilkeleriyle eklemlenir.
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-## ⚡ TEKRARLANABİLİRLİK VE DOĞRULAMA (QUICKSTART)
-
-Açık kaynak standartlarına uygun olarak kamuya açık sistemler ve benchmarklar yerel ortamda doğrudan test edilebilir:
-
-### 1. Türkçe LLM Tokenizer & NLP Benchmark Hattı
 ```bash
+# Türkçe LLM Tokenizer & NLP Benchmark testini çalıştırın:
 git clone https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci.git
 cd teknofest-2025-egitim-eylemci
 python test_turkish_nlp_simple.py
 ```
 
-### 2. Uyarlamalı Öğrenme ve Soru Bankası Çekirdeği (KIRO2)
-```bash
-git clone https://github.com/HuseyinAts/kiro2.git
-cd kiro2
-python -m unittest discover tests/
-```
-
-> [!NOTE]
-> `tohum`, `kozalak`, `mersin` ve `urun` özel savunma ve kurumsal araştırma çekirdekleri olup; fikri mülkiyet ve güvenlik kısıtları gereğince yetkili konsorsiyum ortaklarıyla ikili protokoller altında paylaşılmaktadır.
-
----
-
 <div align="center">
-  <sub>© 2026 Hüseyin Ateş · Otonom Sistemler ve Siber Bağışıklık Mimarisi Laboratuvarı (ASCRL)</sub><br>
-  <sub>Metodolojik ve Felsefi Esin Ekolleri: Linus Torvalds (İzolasyon) · Judea Pearl (Nedensellik) · John Koza (GP) · Andreas Zeller (APR) · Andrej Karpathy (Nöro-Sembolik) · Leslie Lamport (Biçimsel Doğrulama)</sub>
+  <br>
+  <sub>© 2026 Hüseyin Ateş · Sadelik ve Güvenlik Odaklı Sistem Tasarımı</sub>
 </div>
