@@ -37,9 +37,9 @@
 
 ---
 
-## 🏛️ YÜKSEK BİLİMSEL VE SİSTEMİK MİMARİ HEYETİ (CAB)
+## 🏛️ TEORİK ESİN KAYNAKLARI VE MİMARİ İLKELER (FOUNDATIONAL ECOLES)
 
-Bu profil, bünyesindeki 16 araştırma deposu ve tüm teorik/uygulamalı sistemler, bilgisayar bilimleri tarihinin en saygın kuramcılarının doğrudan ilkeleri ve aktif mimari denetimi altında yapılandırılmıştır:
+Bu profil ve bünyesindeki araştırma sistemleri, bilgisayar bilimleri tarihinin öncü kuramcılarının metodolojik disiplinleri ve tasarım felsefeleri referans alınarak yapılandırılmıştır:
 
 <div align="center">
 
@@ -258,10 +258,11 @@ c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\chec
 
 | Kademe | Depo | Kapsam & Mimari | Çekirdek Teknoloji | Durum |
 |:---:|:---|:---|:---|:---:|
-| **KADEME 1**<br><sub>Otonom Kod Evrimi</sub> | 🧬 **[tohum](https://github.com/HuseyinAts/tohum)** | Otonom Kod Evrim Motoru, Çok-Dilli GP, SBFL Ochiai & ddmin | `Rust` `WASM` `TS` `Docker` | ![Private](https://img.shields.io/badge/PRIVATE-CORE-purple?style=flat-square) |
+| **KADEME 1**<br><sub>Otonom Kod Evrimi</sub> | 🧬 **tohum** <sub>(Proprietary Core)</sub> | Otonom Kod Evrim Motoru, Çok-Dilli GP, SBFL Ochiai & ddmin | `Rust` `WASM` `TS` `Docker` | ![Private](https://img.shields.io/badge/PRIVATE-CORE-purple?style=flat-square) |
 | | 🤖 **[kiro2](https://github.com/HuseyinAts/kiro2)** | Otonom Ajan Karar Döngüleri ve Öz-Onarım İş Akışı | `Python` `Agentic-Loop` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| **KADEME 2**<br><sub>Siber Savunma</sub> | 🛡️ **[kozalak](https://github.com/HuseyinAts/kozalak)** | OSIRIS Katmanlı Bot Savunması, TLS JA4+ & Adaptif Challenge | `TypeScript` `Network-Sec` `WAF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
-| **KADEME 3**<br><sub>Enterprise Platform</sub> | ⚡ **[urun](https://github.com/HuseyinAts/urun)** | KIRO2 Sınav DB Platformu: IRT, ZPD, FSRS Mikroservis Ekosistemi | `FastAPI` `React` `Redis` `K8s` | ![Private](https://img.shields.io/badge/PRIVATE-PROD-emerald?style=flat-square) |
+| **KADEME 2**<br><sub>Siber Savunma</sub> | 🛡️ **mersin** <sub>(CRS Core)</sub> | 2026 Otonom Siber Muhakeme Sistemi (CRS), 5 Alt Sistem, 4 Doğrulama Kapısı, InSPECtor & KernelRCA (USENIX '26) | `Python` `Rust` `x64 ASM` `SARIF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
+| | 🛡️ **kozalak** <sub>(Anti-Bot WAF)</sub> | OSIRIS Katmanlı Bot Savunması, TLS JA4+ & Adaptif Challenge | `TypeScript` `Network-Sec` `WAF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
+| **KADEME 3**<br><sub>Enterprise Platform</sub> | ⚡ **urun** <sub>(Sınav DB)</sub> | KIRO2 Sınav DB Platformu: IRT, ZPD, FSRS Mikroservis Ekosistemi | `FastAPI` `React` `Redis` `K8s` | ![Private](https://img.shields.io/badge/PRIVATE-PROD-emerald?style=flat-square) |
 | **KADEME 4**<br><sub>LLM & Dil Teknolojileri</sub> | 🇹🇷 **[teknofest-2025](https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci)** | A100 Tensor Core Türkçe LLM Fine-Tuning & Morfoloji | `PyTorch` `A100` `FlashAttn` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
 | | 📊 **[TrendMiner 2025](https://github.com/HuseyinAts/TrendMiner-_BilisimVadisi2025_Tddi2025)** | Bilişim Vadisi Trend Çıkarımı ve Türkçe Metin Madenciliği | `Python` `TDDI` `NLP` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
 | | 🏆 **[Acikhack 2023](https://github.com/HuseyinAts/Acikhack2023_TrendMiner)** | AçıkHack Doğal Dil İşleme, Duygu Analizi & ML | `Python` `Machine-Learning` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
@@ -320,23 +321,24 @@ c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\chec
 
 ## ⚡ TEKRARLANABİLİRLİK VE DOĞRULAMA (QUICKSTART)
 
-Kurul standartlarına uygun olarak tüm deneyler bağımsız olarak tekrarlanabilir:
+Açık kaynak standartlarına uygun olarak kamuya açık sistemler doğrudan doğrulanabilir:
 
 ```bash
-# 1. Tohum Otonom Kod Evrim Motorunu Klonlayın ve Derleyin
-git clone https://github.com/HuseyinAts/tohum.git
-cd tohum && npm install && npm run build
+# 1. Açık Kaynak Otonom Ajan ve Öz-Onarım Motorunu (KIRO2) Klonlayın
+git clone https://github.com/HuseyinAts/kiro2.git
+cd kiro2
 
-# 2. Tüm Birim, APR ve Causal-Weight Testlerini Koşun (137 Dosya, 902 Test Geçiş Garantisi)
-npm test
-
-# 3. Otomatik K-Kaldıraç ve SBFL Hata Onarımını Bir Hedef Üzerinde Başlatın
-node dist/cli.js --target /path/to/buggy-repo --graph-k=auto --sbfl --reduce-patch
+# 2. Bağımlılıkları Yükleyin ve Doğrulama Testlerini Koşun
+pip install -r requirements.txt
+python -m unittest discover tests/
 ```
+
+> [!NOTE]
+> `tohum`, `kozalak`, `mersin` ve `urun` özel savunma ve kurumsal araştırma çekirdekleri olup; fikri mülkiyet ve güvenlik kısıtları gereğince yetkili konsorsiyum ortaklarıyla ikili protokoller altında paylaşılmaktadır.
 
 ---
 
 <div align="center">
   <sub>© 2026 Hüseyin Ateş · Otonom Sistemler ve Siber Bağışıklık Mimarisi Laboratuvarı (ASCRL)</sub><br>
-  <sub>Kurul İmzaları: Linus Torvalds · Judea Pearl · John Koza · Andreas Zeller · Andrej Karpathy · Leslie Lamport</sub>
+  <sub>Metodolojik ve Felsefi Esin Ekolleri: Linus Torvalds (İzolasyon) · Judea Pearl (Nedensellik) · John Koza (GP) · Andreas Zeller (APR) · Andrej Karpathy (Nöro-Sembolik) · Leslie Lamport (Biçimsel Doğrulama)</sub>
 </div>
