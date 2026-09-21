@@ -3,13 +3,10 @@
 <!-- YENİ TERTEMİZ HERO BENTO (Yazısız, Sadece Devre) -->
   <img src="https://raw.githubusercontent.com/HuseyinAts/HuseyinAts/main/assets/hero-banner.jpg" alt="Hüseyin Ateş - AI Systems & Security" width="100%" style="border-radius: 15px; margin-bottom: 20px;" />
 
-  <!-- METİNLER SVG ve HTML İLE YAZILDI (Sıfır Halüsinasyon Riski) -->
-  <h1 align="center" style="color: #58A6FF; margin-bottom: 0;">HUSEYIN ATES</h1>
+  <!-- METİNLER SABİT (Sıfır Animasyon / Sadelik Ön Planda) -->
+  <h1 align="center" style="color: #58A6FF; margin-bottom: 0;">HÜSEYİN ATEŞ</h1>
   <h3 align="center" style="color: #c9d1d9; margin-top: 5px;">PRINCIPAL AI SYSTEMS ARCHITECT & CYBERNETICS LAB</h3>
-
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Otonom+Sistemler+ve+Yapay+Zeka+Mimari;Siber+G%C3%BCvenlik+Ara%C5%9Ft%C4%B1rmac%C4%B1s%C4%B1;D%C3%BC%C5%9F%C3%BCk+Seviye+Performans+M%C3%BChnedisi" alt="Typing SVG" />
-  </a>
+  <h4 align="center" style="color: #8b949e; font-weight: normal;">Otonom Sistemler Mimarı | Siber Güvenlik Araştırmacısı | Düşük Seviye Optimizasyon Uzmanı</h4>
   <p align="center">
     <a href="mailto:iletisim@example.com"><img src="https://img.shields.io/badge/İletişim-Email-red?style=for-the-badge&logo=mail.ru&logoColor=white" /></a>
     <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Ağım-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
