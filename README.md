@@ -7,23 +7,14 @@
   <h1 align="center" style="color: #58A6FF; margin-bottom: 0;">HÜSEYİN ATEŞ</h1>
   <h3 align="center" style="color: #c9d1d9; margin-top: 5px;">PRINCIPAL AI SYSTEMS ARCHITECT & CYBERNETICS LAB</h3>
   <h4 align="center" style="color: #8b949e; font-weight: normal;">Otonom Sistemler Mimarı | Siber Güvenlik Araştırmacısı | Düşük Seviye Optimizasyon Uzmanı</h4>
-  <p align="center">
-    <a href="mailto:iletisim@example.com"><img src="https://img.shields.io/badge/İletişim-Email-red?style=for-the-badge&logo=mail.ru&logoColor=white" /></a>
-    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Ağım-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  </p>
 
 <br>
 
-<!-- BENTO GRID (TECH STACK & METRICS) -->
-<div>
-  <!-- Sol Kutu (Tech Stack) -->
-  <img align="left" width="49%" src="https://skillicons.dev/icons?i=python,rust,typescript,go,c,cpp,pytorch,docker,kubernetes,postgres,linux,git&theme=dark&perline=4" alt="Tech Stack Bento" />
-
-  <!-- Sağ Kutu (Metrics) -->
-  <img align="right" width="49%" src="https://github-readme-stats.vercel.app/api?username=HuseyinAts&show_icons=true&theme=tokyonight&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117" alt="GitHub Stats Bento" />
+<!-- BENTO GRID (TECH STACK) -->
+<div align="center">
+  <img width="80%" src="https://skillicons.dev/icons?i=python,rust,typescript,go,c,cpp,pytorch,docker,kubernetes,postgres,linux,git&theme=dark&perline=12" alt="Tech Stack Bento" />
 </div>
 
-<br clear="both">
 <br>
 
 <!-- BENTO GRID 3 (SNAKE ANIMATION) -->
