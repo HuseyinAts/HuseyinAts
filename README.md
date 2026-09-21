@@ -160,7 +160,7 @@ S_{\text{Ochiai}}(s) = \frac{e_f(s)}{\sqrt{\text{failed}_{\text{total}} \cdot \l
 ### 2. Nedensel Difüzyon ve $w^p$ Keskinleştirme
 > Dinamik çalışma zamanı arıza sinyali ile statik import erişiminin ($w^p$) füzyonu:
 ```math
-w_i = \begin{cases} 5 \cdot S_{\text{Ochiai}}(i) + w^p_i, & \text{eğer } S_{\text{Ochiai}}(i) > 0 \\ \epsilon \cdot w^p_i, & \text{eğer } S_{\text{Ochiai}}(i) = 0 \quad (\epsilon = 0.05) \end{cases}
+w_i = \begin{cases} 5 \cdot S_{\text{Ochiai}}(i) + w^p_i, & \text{if } S_{\text{Ochiai}}(i) > 0 \\ \epsilon \cdot w^p_i, & \text{if } S_{\text{Ochiai}}(i) = 0 \quad (\epsilon = 0.05) \end{cases}
 ```
 
 ### 3. Shannon Entropisi ile Dinamik Kaldıraç Kümesi Kestirimi ($K_{\text{auto}}$)
@@ -178,12 +178,14 @@ H(p) = -\sum_{i=1}^M p_i \ln p_i \implies K_{\text{auto}} = \max\left(1, \lceil 
 ### 5. Zeller 1-Minimal Delta Debugging Koşulu ($ddmin$)
 > Sentetik yamaların test takımına aşırı öğrenmesini (overfitting) engelleyen 1-satırlık minimal diff:
 ```math
-c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\checkmark} \quad \wedge \quad \forall c'' \subset c', \ \text{Oracle}(c'') \neq \boldsymbol{\checkmark}
+c' \subseteq c \quad \text{such that} \quad \text{Oracle}(c') = \text{Pass} \quad \wedge \quad \forall c'' \subset c', \ \text{Oracle}(c'') = \text{Fail}
 ```
 
 ---
 
-## 📊 HAKEMLİ AMPİRİK İSPATLAR VE İSTATİSTİKSEL ANLAMLILIK
+## 📊 DAHİLİ LABORATUVAR BENCHMARK DENEYLERİ VE İSTATİSTİKSEL ANLAMLILIK
+
+Aşağıdaki metrikler; kapalı laboratuvar ortamında tohum genetik programlama motoru, otonom karar modülleri ve yerel modeller üzerinde koşturulan bağımsız test serilerinin (toplam $N=165$ kontrollü deneme) istatistiksel hipotez testi sonuçlarıdır:
 
 <div align="center">
 
@@ -258,22 +260,21 @@ c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\chec
 
 | Kademe | Depo | Kapsam & Mimari | Çekirdek Teknoloji | Durum |
 |:---:|:---|:---|:---|:---:|
-| **KADEME 1**<br><sub>Otonom Kod Evrimi</sub> | 🧬 **tohum** <sub>(Proprietary Core)</sub> | Otonom Kod Evrim Motoru, Çok-Dilli GP, SBFL Ochiai & ddmin | `Rust` `WASM` `TS` `Docker` | ![Private](https://img.shields.io/badge/PRIVATE-CORE-purple?style=flat-square) |
-| | 🤖 **[kiro2](https://github.com/HuseyinAts/kiro2)** | Otonom Ajan Karar Döngüleri ve Öz-Onarım İş Akışı | `Python` `Agentic-Loop` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| **KADEME 2**<br><sub>Siber Savunma</sub> | 🛡️ **mersin** <sub>(CRS Core)</sub> | 2026 Otonom Siber Muhakeme Sistemi (CRS), 5 Alt Sistem, 4 Doğrulama Kapısı, InSPECtor & KernelRCA (USENIX '26) | `Python` `Rust` `x64 ASM` `SARIF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
+| **KADEME 1**<br><sub>Otonom Kod Evrimi & CRS</sub> | 🧬 **tohum** <sub>(Proprietary Core)</sub> | Otonom Kod Evrim Motoru, Çok-Dilli GP, SBFL Ochiai & ddmin | `Rust` `WASM` `TS` `Docker` | ![Private](https://img.shields.io/badge/PRIVATE-CORE-purple?style=flat-square) |
+| | 🛡️ **mersin** <sub>(CRS Core)</sub> | 2026 Otonom Siber Muhakeme Sistemi (CRS), 5 Alt Sistem, 4 Doğrulama Kapısı, InSPECtor & KernelRCA (USENIX '26) | `Python` `Rust` `x64 ASM` `SARIF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
 | | 🛡️ **kozalak** <sub>(Anti-Bot WAF)</sub> | OSIRIS Katmanlı Bot Savunması, TLS JA4+ & Adaptif Challenge | `TypeScript` `Network-Sec` `WAF` | ![Private](https://img.shields.io/badge/PRIVATE-DEFENSE-red?style=flat-square) |
-| **KADEME 3**<br><sub>Enterprise Platform</sub> | ⚡ **urun** <sub>(Sınav DB)</sub> | KIRO2 Sınav DB Platformu: IRT, ZPD, FSRS Mikroservis Ekosistemi | `FastAPI` `React` `Redis` `K8s` | ![Private](https://img.shields.io/badge/PRIVATE-PROD-emerald?style=flat-square) |
-| **KADEME 4**<br><sub>LLM & Dil Teknolojileri</sub> | 🇹🇷 **[teknofest-2025](https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci)** | A100 Tensor Core Türkçe LLM Fine-Tuning & Morfoloji | `PyTorch` `A100` `FlashAttn` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 📊 **[TrendMiner 2025](https://github.com/HuseyinAts/TrendMiner-_BilisimVadisi2025_Tddi2025)** | Bilişim Vadisi Trend Çıkarımı ve Türkçe Metin Madenciliği | `Python` `TDDI` `NLP` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 🏆 **[Acikhack 2023](https://github.com/HuseyinAts/Acikhack2023_TrendMiner)** | AçıkHack Doğal Dil İşleme, Duygu Analizi & ML | `Python` `Machine-Learning` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 📜 **[Osmanlıca TDDI](https://github.com/HuseyinAts/Osmanli_Acikhack2024_TDDI)** | AçıkHack Osmanlıca OCR, Karakter Tanıma ve NLP Modelleri | `Python` `OCR` `Fine-Tuning` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 🏛️ **[Osmanlıca Külliyat](https://github.com/HuseyinAts/Osmanlica_Acikhack2024_TDDI)** | Tarihi Metinler Morfolojik Analiz ve Dil Kaynakları | `Python` `Linguistics` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 🐦 **[TurkceTweet](https://github.com/HuseyinAts/TurkceTweet)** | Türkçe Tweet Duygu Analizi ve Büyük Metin Külliyatı | `Python` `Dataset` `Sentiment` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 🎙️ **[voice](https://github.com/HuseyinAts/voice)** / 🔊 **[trses](https://github.com/HuseyinAts/trses)** | Türkçe Konuşma Tanıma (ASR) ve Spektrogram Analiz Altyapısı | `Python` `Speech` `Acoustics` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 🧠 **[llm_finetune](https://github.com/HuseyinAts/llm_finetune)** | Dağıtık Büyük Dil Modeli İnce Ayar ve Deepspeed Optimizasyonu | `Python` `PyTorch` `Deepspeed` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| **KADEME 5**<br><sub>Dağıtık Hesaplama</sub> | 🐘 **[hadoop](https://github.com/HuseyinAts/hadoop)** | Apache Hadoop Dağıtık Dosya Sistemi (HDFS) & MapReduce | `Java` `Distributed-Systems` | ![Public Fork](https://img.shields.io/badge/PUBLIC-FORK-gray?style=flat-square) |
-| | 📓 **[intro](https://github.com/HuseyinAts/intro)** | Hesaplamalı Zeka ve Makine Öğrenimi Keşifsel Analitiği | `Jupyter` `Python` `Data-Science` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
-| | 🌐 **[HuseyinAts](https://github.com/HuseyinAts/HuseyinAts)** | Global Araştırma Portföyü ve Bilimsel Konsorsiyum README'si | `Markdown` `LaTeX` `SVG` | ![Public Profile](https://img.shields.io/badge/PUBLIC-PROFILE-orange?style=flat-square) |
+| **KADEME 2**<br><sub>Enterprise & Uyarlamalı Sistemler</sub> | 🤖 **[kiro2](https://github.com/HuseyinAts/kiro2)** | Akıllı Soru Bankası Çıkarımı, IRT & FSRS Uyarlamalı Sınav Platformu | `FastAPI` `React` `PostgreSQL` `YOLO` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | ⚡ **urun** <sub>(Sınav DB)</sub> | Enterprise Sınav DB Platformu: IRT, ZPD, FSRS Mikroservis Ekosistemi | `FastAPI` `React` `Redis` `K8s` | ![Private](https://img.shields.io/badge/PRIVATE-PROD-emerald?style=flat-square) |
+| **KADEME 3**<br><sub>LLM, NLP & Makine Öğrenimi</sub> | 🇹🇷 **[teknofest-2025](https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci)** | A100 Tensor Core Türkçe LLM Eğitimi, Özel Tokenizer & Benchmark | `PyTorch` `Qwen` `HuggingFace` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 📊 **[TrendMiner 2025](https://github.com/HuseyinAts/TrendMiner-_BilisimVadisi2025_Tddi2025)** | Bilişim Vadisi 2025 TDDI Türkçe Trend Analizi ve Büyük Veri Madenciliği | `Jupyter` `TDDI` `NLP` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 🏆 **[Acikhack 2023](https://github.com/HuseyinAts/Acikhack2023_TrendMiner)** | AçıkHack 2023 Doğal Dil İşleme, Duygu Analizi & ML Modelleri | `Jupyter` `Machine-Learning` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 📜 **[Osmanlıca TDDI](https://github.com/HuseyinAts/Osmanli_Acikhack2024_TDDI)** | TEKNOFEST 2024 Osmanlıca Metin Analizi, Karakter Tanıma ve Dil Modelleri | `Python` `OCR` `NLP` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 🐦 **[TurkceTweet](https://github.com/HuseyinAts/TurkceTweet)** | Türkçe Tweet Duygu Analizi ve Metin Sınıflandırma Veri Külliyatı | `Python` `Dataset` `Sentiment` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| | 📓 **[intro](https://github.com/HuseyinAts/intro)** | Hesaplamalı Zeka ve Makine Öğrenimi Temelleri | `Jupyter` `Python` `Data-Science` | ![Public](https://img.shields.io/badge/PUBLIC-OPEN-blue?style=flat-square) |
+| **KADEME 4**<br><sub>Ar-Ge & Prototip Hazırlık</sub> | 🎙️ **[voice](https://github.com/HuseyinAts/voice)** / 🔊 **[trses](https://github.com/HuseyinAts/trses)** | Türkçe Konuşma ve Ses Spektrogram Analiz Altyapısı *(Prototip / Ar-Ge)* | `Python` `Speech` `Acoustics` | ![WIP](https://img.shields.io/badge/STUB-WIP-grey?style=flat-square) |
+| | 🧠 **[llm_finetune](https://github.com/HuseyinAts/llm_finetune)** | Dağıtık LLM İnce Ayar ve Optimizasyon Hattı *(Ar-Ge Hazırlık)* | `Python` `PyTorch` | ![WIP](https://img.shields.io/badge/STUB-WIP-grey?style=flat-square) |
+| **KADEME 5**<br><sub>Profil & Ekosistem</sub> | 🌐 **[HuseyinAts](https://github.com/HuseyinAts/HuseyinAts)** | Hüseyin Ateş GitHub Profil Sayfası ve Araştırma Matrisi | `Markdown` `LaTeX` `SVG` | ![Public Profile](https://img.shields.io/badge/PUBLIC-PROFILE-orange?style=flat-square) |
+| | 🐘 **[hadoop](https://github.com/HuseyinAts/hadoop)** | Apache Hadoop Dağıtık Dosya Sistemi (HDFS) & MapReduce | `Java` `Distributed-Systems` | ![Public Fork](https://img.shields.io/badge/UPSTREAM-FORK-lightgrey?style=flat-square) |
 
 </div>
 
@@ -321,15 +322,19 @@ c' \subseteq c \quad \text{öyle ki} \quad \text{Oracle}(c') = \boldsymbol{\chec
 
 ## ⚡ TEKRARLANABİLİRLİK VE DOĞRULAMA (QUICKSTART)
 
-Açık kaynak standartlarına uygun olarak kamuya açık sistemler doğrudan doğrulanabilir:
+Açık kaynak standartlarına uygun olarak kamuya açık sistemler ve benchmarklar yerel ortamda doğrudan test edilebilir:
 
+### 1. Türkçe LLM Tokenizer & NLP Benchmark Hattı
 ```bash
-# 1. Açık Kaynak Otonom Ajan ve Öz-Onarım Motorunu (KIRO2) Klonlayın
+git clone https://github.com/HuseyinAts/teknofest-2025-egitim-eylemci.git
+cd teknofest-2025-egitim-eylemci
+python test_turkish_nlp_simple.py
+```
+
+### 2. Uyarlamalı Öğrenme ve Soru Bankası Çekirdeği (KIRO2)
+```bash
 git clone https://github.com/HuseyinAts/kiro2.git
 cd kiro2
-
-# 2. Bağımlılıkları Yükleyin ve Doğrulama Testlerini Koşun
-pip install -r requirements.txt
 python -m unittest discover tests/
 ```
 
